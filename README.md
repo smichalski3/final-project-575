@@ -39,7 +39,7 @@ Upon arriving at the interactive, Charlotte is greeted by the title of the story
 
 6: Query Panel: Filter or sequence; using the panel, the user is able to adjust which sequence they would like to look at: where the statues were originally from, where they were found, & where they ended up.
 
-7: Object hover: Resymbolize; the user is able to hover over which ever phase they are on with each statue and learn more information about how it got there/when/where the statue is in that phase
+7: Object hover: Resymbolize; the user is able to hover over whichever phase they are on with each statue and learn more information about how it got there/when/where the statue is in that phase
 
 
 
