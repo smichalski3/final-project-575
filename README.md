@@ -15,20 +15,30 @@ Upon arriving at the interactive, Charlotte is greeted by the title of the story
 
 ## Representation
 1: Basemaps/slippy maps: Style designed through Mapbox or CARTO; projections from ArcGIS Pro or QIS; initial map information/vectors from Natural Earth
+
 2: Statue information: Spatial dataset of statue coordinates/artist information if it is known
+
 3: Museums: Spatial dataset of museum coordinates 
+
 4: Story information/overview: The text on the story page that explains the problem of repatriation, purpose of maps, filler photos etc. 
+
 5: Movement lines/routes: Lines representing the movement of the statues throughout the phases
+
 6: Legend: Legend on each map representing distances/meanings of colors/points/etc.
 
 ## Interaction 
 1: Scrolling: User is able to scroll through the webpage to view each map, the story text, and other information incuded on the page.
 
 2: Slippy maps: Pan and zoom; the user is able to toggle their view of the map using their cursor/finger/scroll
+
 3: Pan/zoom toggle: Pan and zoom; the user is able to manually toggle the zoom and pan from a widget in the corner of the map
+
 4: Statue click/hover: Retrieve; obtaining information about each statue, such as artist, location, dates, etc.
+
 5: Museum click/hover: Retrieve; obtaining information about each museum and when/how the statue got there
+
 6: Query Panel: Filter or sequence; using the panel, the user is able to adjust which sequence they would like to look at: where the statues were originally from, where they were found, & where they ended up.
+
 7: Object hover: Resymbolize; the user is able to hover over which ever phase they are on with each statue and learn more information about how it got there/when/where the statue is in that phase
 
 
