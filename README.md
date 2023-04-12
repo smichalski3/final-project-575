@@ -21,8 +21,9 @@ Upon arriving at the interactive, Charlotte is greeted by the title of the story
 5: Movement lines/routes: Lines representing the movement of the statues throughout the phases
 6: Legend: Legend on each map representing distances/meanings of colors/points/etc.
 
-# Interaction 
+## Interaction 
 1: Scrolling: User is able to scroll through the webpage to view each map, the story text, and other information incuded on the page.
+
 2: Slippy maps: Pan and zoom; the user is able to toggle their view of the map using their cursor/finger/scroll
 3: Pan/zoom toggle: Pan and zoom; the user is able to manually toggle the zoom and pan from a widget in the corner of the map
 4: Statue click/hover: Retrieve; obtaining information about each statue, such as artist, location, dates, etc.
