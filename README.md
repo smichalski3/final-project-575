@@ -42,7 +42,6 @@ Upon arriving at the interactive, Charlotte is greeted by the title of the story
 7: Object hover: Resymbolize; the user is able to hover over whichever phase they are on with each statue and learn more information about how it got there/when/where the statue is in that phase
 
 ## Wireframes
-![IMG_1021](https://user-images.githubusercontent.com/123591408/231502931-c8736a3d-7ea1-4d48-8012-28e21707a699.jpeg)
 
 
 
