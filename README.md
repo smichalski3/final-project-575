@@ -43,25 +43,12 @@ Upon arriving at the interactive, Charlotte is greeted by the title of the story
 
 # Wireframes
 
+![IMG-1032](https://user-images.githubusercontent.com/117134745/232588836-9d82e897-03d6-453b-aefc-384e8b74ca8b.JPG)
 
+![IMG-1033](https://user-images.githubusercontent.com/117134745/232588906-f4ebc24e-3892-4700-9b18-40ee3ed2d88b.JPG)
 
+![IMG-1034](https://user-images.githubusercontent.com/117134745/232588925-af6fad2b-719f-4aad-bb30-34acd071465d.JPG)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![IMG-1035](https://user-images.githubusercontent.com/117134745/232588935-7c216771-48d0-455f-ae55-6da2022a760a.JPG)
 
  
