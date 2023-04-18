@@ -1,1 +1,14 @@
 /*insert style here*/
+@font-face {
+    font-family: aquiline;
+    src: url(fonts/AquilineTwo.ttf);
+}
+.title {
+    color: white;
+    font-family: aquiline;
+}
+
+.author {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+}
