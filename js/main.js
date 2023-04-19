@@ -48,14 +48,14 @@ function calcStats(data) {
 
 
 //calculate the radius of each proportional symbol
-function calcPropRadius(attValue) {
+//function calcPropRadius(attValue) {
     //constant factor adjusts symbol sizes evenly
-    var minRadius = 1;
+    //var minRadius = 1;
     //Flannery Apperance Compensation formula
-    var radius = 1.0083 * Math.pow(attValue/ dataStats.min, 0.5715) * minRadius
+    //var radius = 1.0083 * Math.pow(attValue/ dataStats.min, 0.5715) * minRadius
 
-    return radius;
-};
+    //return radius;
+//};
 
 
 
