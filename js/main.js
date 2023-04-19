@@ -20,46 +20,6 @@ function createMap() {
     getData(map);
 };
 
-// function to calculate values of data
-function calcStats(data) {
-    //create empty array to store all data values
-    var allValues = [];
-
-    for (var museum of data.features) {
-        //loop through each year
-
-        //get name for each museum
-        var value = museum.properties["museum" + String(Name)];
-        //add value to array
-        allValues.push(value);
-    }
-}
-//get min, max, mean stats for our array
-dataStats.min = Math.min(...allValues);
-dataStats.max = Math.max(...allValues);
-//calculate meanValue
-console.log(allValues)
-var sum = allValues.reduce(function (a, b) {
-    return a + b;
-});
-dataStats.mean = sum / allValues.length;
-
-
-
-
-//calculate the radius of each proportional symbol
-//function calcPropRadius(attValue) {
-    //constant factor adjusts symbol sizes evenly
-    //var minRadius = 1;
-    //Flannery Apperance Compensation formula
-    //var radius = 1.0083 * Math.pow(attValue/ dataStats.min, 0.5715) * minRadius
-
-    var radius = 1.0083 * Math.pow(attValue / dataStats.min, 0.5715) * minRadius
-
-
-    //return radius;
-//};
-
 
 
 //function to convert markers to circle markers and add popups
@@ -111,38 +71,6 @@ function createPropSymbols(data, attributes) {
 };
 
 
-function getCircleValues(attribute) {
-    //start with min at highest possible and max at lowest possible number
-    var min = Infinity,
-        max = -Infinity;
-
-    map.eachLayer(function (layer) {
-        //get the attribute value
-        if (layer.feature) {
-            var attributeValue = Number(layer.feature.properties[attribute]);
-
-            //test for min
-            if (attributeValue < min) {
-                min = attributeValue;
-            }
-
-            //test for max
-            if (attributeValue > max) {
-                max = attributeValue;
-            }
-        }
-    });
-
-    //set mean
-    var mean = (max + min) / 2;
-
-    //return values as an object
-    return {
-        max: max,
-        mean: mean,
-        min: min,
-    };
-}
 
 
 
@@ -177,11 +105,8 @@ function getData(map) {
         })
         .then(function (json) {
             var attributes = processData(json);
-            calcStats(json);
             //call function to create proportional symbols
             createPropSymbols(json, attributes);
-            createSequenceControls(attributes);
-            createLegend(attributes);
         })
 };
 
