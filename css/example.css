@@ -1,0 +1,196 @@
+/* fonts */ 
+@font-face { 
+    font-family: cantique;
+    src: url(fonts/Cantique-Normal.otf);
+}
+
+@font-face { 
+    font-family: daubenton;
+    src: url(fonts/Daubenton.ttf);
+}
+
+@font-face { 
+    font-family: mayflower;
+    src: url(fonts/MayflowerAntique.ttf);
+}
+
+@font-face {
+    font-family: packard;
+    src: url(fonts/PackardAntique.ttf);
+}
+
+@font-face {
+    font-family: day;
+    src: url(fonts/DAYROM__.ttf);
+}
+
+/* text and background color */
+.title {
+    font-size: 60px;
+    color: #730000;
+    text-align: center;
+    margin: 0%;
+    font-family: cantique;
+}
+
+.text2 {
+    color: black;
+    text-align: left;
+    font-family: day;
+    font-size: 16px;
+    margin-block-end: 25px;
+}
+
+.text3 {
+    color: black; 
+    text-align: center;
+    font-family: day;
+    font-size: 16px;
+    margin-block-end: 30px;
+}
+
+body{
+    background-color: #f6f0cd;
+}
+
+/* text-image side by side style */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+img {
+    max-width: 100%;
+  }
+  
+.image {
+    flex-basis: 80%;
+    margin-bottom: 15px;
+  }
+
+.image1 {
+    flex-basis: 80%;
+    margin-bottom: 15px;
+  }
+
+.text {
+    font-size: 16px;
+    padding-left: 20px;
+    font-family: day;
+  }
+
+.text1 {
+    font-size: 16px;
+    padding-right: 20px;
+    font-family: day;
+    text-align: right;
+  }
+
+/* image-image side by side style */
+.column {
+    float: left;
+    width: 30.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* map style */ 
+#map { 
+    height: 600px; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+
+/* pop-up content style */
+.leaflet-popup-content p { 
+    margin: 0.1em 0; 
+    font-family: packard;
+    font-weight: bold;
+    font-size: 13px;
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+    background-color: #f6f0cd !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+
+/* sequence style */ 
+.sequence-control-container {
+    width: 350px;
+    height: 30px; 
+    background-color: #f6f0cd;
+    opacity: 0.8;
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.range-slider { 
+    width: 250px;
+}
+
+.step { 
+    width: 40px;
+    background-color: #f6f0cd;
+    border: white;
+}
+
+.step img {
+    width: 100%; 
+    height: auto;
+}
+
+#forward { 
+    float: right;
+}
+
+#reverse {
+    float: left;
+}
+
+/* legend style */
+.legend-control-container {
+    width: 150px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f6f0cd;
+    padding: 10px;
+    text-align: center;
+    border: solid black 1px;
+    font-family: cantique;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.legend-control-container p{
+     margin: 0;
+}
+
+
+/* zoom button style */
+html body .leaflet-control-container .leaflet-top .leaflet-control-zoom a.leaflet-control-zoom-in { 
+    color: black; 
+    background-color: #f6f0cd;
+    opacity: 0.8;
+    border-radius: 2px;
+}
+
+html body .leaflet-control-container .leaflet-top .leaflet-control-zoom a.leaflet-control-zoom-out { 
+    color: black; 
+    background-color: #f6f0cd;
+    opacity: 0.8;
+    border-radius: 2px;
+}
