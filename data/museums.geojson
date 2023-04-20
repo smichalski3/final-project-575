@@ -1,1 +1,201 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"Name":"Paris"},"geometry":{"type":"Point","coordinates":[2.3376,48.8606]}},{"type":"Feature","properties":{"Name":"Paris"},"geometry":{"type":"Point","coordinates":[2.3376,48.8606]}},{"type":"Feature","properties":{"Name":"Olympia"},"geometry":{"type":"Point","coordinates":[21.6243,37.6394]}},{"type":"Feature","properties":{"Name":"Athens"},"geometry":{"type":"Point","coordinates":[23.7328,37.989]}},{"type":"Feature","properties":{"Name":"London"},"geometry":{"type":"Point","coordinates":[-0.127,51.5194]}},{"type":"Feature","properties":{"Name":"Olympia"},"geometry":{"type":"Point","coordinates":[21.6243,37.6394]}},{"type":"Feature","properties":{"Name":"London"},"geometry":{"type":"Point","coordinates":[-0.127,51.5194]}},{"type":"Feature","properties":{"Name":"Paris"},"geometry":{"type":"Point","coordinates":[2.3376,48.8606]}},{"type":"Feature","properties":{"Name":"Athens"},"geometry":{"type":"Point","coordinates":[23.7328,37.989]}},{"type":"Feature","properties":{"Name":"Munich"},"geometry":{"type":"Point","coordinates":[11.5657,48.1463]}},{"type":"Feature","properties":{"Name":"Delphi"},"geometry":{"type":"Point","coordinates":[22.499905,38.480167]}},{"type":"Feature","properties":{"Name":"Calabria"},"geometry":{"type":"Point","coordinates":[15.661944,38.111389]},"id":11},{"type":"Feature","properties":{"Name":"London"},"geometry":{"type":"Point","coordinates":[-0.127,51.5194]}},{"type":"Feature","properties":{"Name":"Athens"},"geometry":{"type":"Point","coordinates":[23.7328,37.989]}},{"type":"Feature","properties":{"Name":"Delphi"},"geometry":{"type":"Point","coordinates":[22.499905,38.480167]}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Paris"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3376,
+                    48.8606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Paris"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3376,
+                    48.8606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Olympia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.6243,
+                    37.6394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Athens"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7328,
+                    37.989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "London"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.127,
+                    51.5194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Olympia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.6243,
+                    37.6394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "London"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.127,
+                    51.5194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Paris"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3376,
+                    48.8606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Athens"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7328,
+                    37.989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Munich"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5657,
+                    48.1463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Delphi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.499905,
+                    38.480167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Calabria"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.661944,
+                    38.111389
+                ]
+            },
+            "id": 11
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "London"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.127,
+                    51.5194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Athens"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7328,
+                    37.989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Delphi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.499905,
+                    38.480167
+                ]
+            }
+        }
+    ]
+}
