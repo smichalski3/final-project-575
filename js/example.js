@@ -21,7 +21,7 @@ function createMap(){
 //function to retrieve the data and place it on the map
 function getData(map){
     //load the data, then map
-    fetch("data/meuseums.geojson")
+    fetch("data/museums.geojson")
         .then(function(response){
             return response.json();
         })
