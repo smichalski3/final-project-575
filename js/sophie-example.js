@@ -7,8 +7,8 @@ var map;
       map = L.map('map', {
           center: [39, 25],
           zoom: 6,
-          maxZoom: 6,  // set maxZoom and minZoom to the same value to disable zooming
-          minZoom: 6
+         // maxZoom: 6,  // set maxZoom and minZoom to the same value to disable zooming
+         // minZoom: 6
       });
   
       //add OSM base tilelayer
@@ -30,7 +30,7 @@ function getData(map){
       .then(function(json){
           //create a Leaflet GeoJSON layer and add it to the map
           L.geoJson(json, {
-              //use filter function to only show cities with 2015 populations greater than 20 million
+              //use filter function to only show statue names
               filter: function(feature, layer) {
                   return feature.properties;
               },
