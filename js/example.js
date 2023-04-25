@@ -72,7 +72,13 @@ function onEachFeature(feature, layer) {
     if (feature.properties) {
         // loop to add feature property names and values to html string
         for (var property in feature.properties) {
-            popupContent += "<p>" + property + ": " + feature.properties[property] + "</p>";
+            if (property != "image"){
+                popupContent += "<p>" + property + ": " + feature.properties[property] + "</p>";
+            }
+            else{
+                console.log("hello")
+                popupContent += "<img id='test' src='" + feature.properties[property] + "'>";
+            }
         }
         layer.bindPopup(popupContent);
     };

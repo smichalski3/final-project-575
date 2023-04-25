@@ -25,7 +25,9 @@
                 "Created in": "Samothrace",
                 "Dated to": "2nd c. BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":"img/pink-swirl.jpg"
+
             },
             "geometry": {
                 "type": "Point",
