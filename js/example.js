@@ -14,13 +14,13 @@ var statueMap = L.map('statueMap', {
 
 var museumMap = L.map('museumMap', {
     center: [39, 25],
-    zoom: 6,
+    zoom: 5,
     maxZoom: 12,
     minZoom: 4,
     scrollWheelZoom: false,
     zoomControl: true,
     maxBounds: [
-        [50, 50],
+        [50, 20],
         [25, 0]
     ],
 });
