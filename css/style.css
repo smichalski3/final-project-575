@@ -9,6 +9,57 @@
     src: url(fonts/Gar-A-MondTall.ttf);
 }
 
+/* pop-up content style for statueMap */
+#statueMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#statueMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+    background-color: #ffe8f2 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for museumMap */
+#museumMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#museumMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f2e8ff !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+.title {
+    color: white;
+    font-family: aquiline;
+}
+
+.author {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+}
+
+#statueMap { 
+    height: 675px; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#museumMap {
+    height: 675px; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+
 /*.leaflet-popup-content {
 background-color:rgb(231, 238, 244);
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,37 +73,3 @@ top: 10%;
 left: 10%;
 transform: translate(1%, 1%);
 }*/
-
-/* pop-up content style */
-.leaflet-popup-content p { 
-    margin: 0.1em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
-    color: black;
-    font-size: 13px;
-}
-.leaflet-popup-content-wrapper, .leaflet-popup-tip{
-    background-color: #f6cdea !important;
-    border-radius: 6px !important;
-    opacity: 0.9
-}
-
-
-
-.title {
-    color: white;
-    font-family: aquiline;
-}
-
-.author {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 100px;
-}
-
-#map { 
-    height: 600px; 
-    width: 100%; 
-    display: inline-block; 
-}
-
-
