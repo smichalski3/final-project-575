@@ -42,6 +42,10 @@
     font-family: aquiline;
 }
 
+.title-background {
+    background-size: cover;
+}
+
 .author {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 100px;
