@@ -76,7 +76,6 @@ function onEachFeature(feature, layer) {
                 popupContent += "<p>" + property + ": " + feature.properties[property] + "</p>";
             }
             else{
-                console.log("hello")
                 popupContent += "<img id='test' src='" + feature.properties[property] + "'>";
             }
         }
