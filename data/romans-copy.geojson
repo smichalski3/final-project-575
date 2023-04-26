@@ -1,0 +1,93 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Laocoon and His Sons",
+                "Created In": "1st c. CE",
+                "Dated to": "1st c. CE",
+                "Created latitude": 39.1325,
+                "Created longitude": 27.184168,
+                "Museum Latitude": 41.9029,
+                "Museum Longitude": 12.4534
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4964,
+                    41.9028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Aphrodite of Knidos",
+                "Created latitude": 36.6889,
+                "Created longitude": 27.3733,
+                "Museum Latitude": 41.8818,
+                "Museum Longitude": -87.6231
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.8022,
+                    41.9598
+                ]
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Farnese Hercules",
+                "Created latitude": 41.9028,
+                "Created longitude": 12.4964,
+                "Museum Latitude": 40.8518,
+                "Museum Longitude": 14.2681
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4964,
+                    41.9028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Townley Venus",
+                "Created latitude": 41.7311,
+                "Created longitude": 12.2863,
+                "Museum Latitude": 51.5072,
+                "Museum Longitude": -0.118092
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2863,
+                    41.7311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Leda and the Swan",
+                "Created latitude": 41.9028,
+                "Created longitude": 12.4964,
+                "Museum Latitude": 34.0522,
+                "Museum Longitude": -118.2437
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4964,
+                    41.9028
+                ]
+            }
+        }
+    ]
+}

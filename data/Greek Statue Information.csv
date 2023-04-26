@@ -1,16 +1,15 @@
-Name,Created Latitude,Created Longitude,,Museum Latitude,Museum Longitude
-Venus de Milo,36.6914,24.3936,,2.3376,48.8606
-Nike of Samothrace,40.4477,25.5918,,2.3376,48.8606
-Zeus and Ganymede,37.6388,21.6299,,21.6243,37.6394
-The Artemesian Bronze,39.0099,23.2278,,23.7328,37.989
-The Parthenon Marbles,39.9708,23.7261,,-0.127,51.5194
-Hermes and the Infant Dinoysus,37.6388,21.6299,,21.6243,37.6394
-Altar of Pergamon,39.1325,27.184168,,-0.127,51.5194
-Lady of Auxerre,35.427416,24.530005,,-0.127,51.5194
-The Kritos Boy,37.970833,23.72611,,2.3376,48.8606
-The Dying Warrior,37.7409,23.5014,,11.5657,48.1463
-The Charioteer of Delphi,38.4801,22.4941,,22.499905,38.480167
-The Riace Bronzes,37.6525,22.8582,,15.661944,38.111389
-The Marble Metopes of the Parthenon,37.9838,23.7275,,-0.127,51.5194
-The Sacred Gate of Dipylon Kouros,37.978,23.7173,,23.7328,37.989
-Kleobis Biton,37.6352,22.7289,,22.499905,38.480167
+Name,Start X,Start Y,End X,End Y
+Venus de Milo,36.6914,24.3936,2.3376,48.8606
+Nike of Samothrace,40.4477,25.5918,2.3376,48.8606
+Zeus and Ganymede,37.6388,21.6299,21.6243,37.6394
+The Artemesian Bronze,39.0099,23.2278,23.7328,37.989
+The Parthenon Marbles,39.9708,23.7261,-0.127,51.5194
+Hermes and the Infant Dinoysus,37.6388,21.6299,21.6243,37.6394
+Altar of Pergamon,39.1325,27.184168,-0.127,51.5194
+Lady of Auxerre,35.427416,24.530005,-0.127,51.5194
+The Kritos Boy,37.970833,23.72611,2.3376,48.8606
+The Dying Warrior,37.7409,23.5014,11.5657,48.1463
+The Charioteer of Delphi,38.4801,22.4941,22.499905,38.480167
+The Riace Bronzes,37.6525,22.8582,15.661944,38.111389
+The Marble Metopes of the Parthenon,37.9838,23.7275,-0.127,51.5194
+The Sacred Gate of Dipylon Kouros,37.978,23.7173,23.7328,37.989

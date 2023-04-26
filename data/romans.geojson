@@ -1,0 +1,108 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Laocoon and His Sons",
+                "Created In": "Permgamon",
+                "Dated to": "200 BCE",
+                "Artist": "Hagesandros, Polydoros, and Athenedoros",
+                "Material": "Bronze"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.184168,
+                    39.1325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Aphrodite of Knidos",
+                "Created In": "Temple of Aphrodite, Knidos",
+                "Dated to": "4th c. BCE",
+                "Artist": "Praxiteles",
+                "Material": "Marble"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.6759,
+                    36.7231
+                ]
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Farnese Hercules",
+                "Found in": "Baths of Caracalla, Rome",
+                "Dated to": "4th c. BCE",
+                "Artist": "Lysipposs",
+                "Material": "Bronze"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49,
+                    41.90
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Townley Venus",
+                "Found in": "Ostia",
+                "Dated to": "4th c. BCE",
+                "Artist": "Unknown",
+                "Material": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2863,
+                    41.7311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Leda and the Swan",
+                "Found in": "Rome",
+                "Dated to": "4th c. BCE",
+                "Artist": "Timotheos",
+                "Material": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4964,
+                    41.9028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Discobolos",
+                "Found in": "Hadrian's Villa",
+                "Dated to": "450 BCE",
+                "Artist": "Myron",
+                "Material": "Bronze"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.7744,
+                    41.9428
+                ]
+            }
+        }
+    ]
+}

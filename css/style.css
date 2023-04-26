@@ -39,6 +39,20 @@
     opacity: 0.9
 }
 
+/* pop-up content style for museumMap */
+#romanMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#romanMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f2e8ff !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
 .title {
     color: white;
     font-family: aquiline;
@@ -60,6 +74,12 @@
 }
 
 #museumMap {
+    height: 675px; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#romanMap {
     height: 675px; 
     width: 100%; 
     display: inline-block; 

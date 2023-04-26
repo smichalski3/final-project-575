@@ -25,6 +25,16 @@ var museumMap = L.map('museumMap', {
     ],
 });
 
+var romanMap = L.map('romanMap', {
+    center: [39, 25],
+    zoom: 5,
+    maxZoom: 12,
+    minZoom: 4,
+    scrollWheelZoom: false,
+    zoomControl: true,
+
+});
+
 // Add OSM base tilelayer to the maps
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
     maxZoom: 18,
@@ -34,9 +44,14 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
     maxZoom: 18,
 }).addTo(museumMap);
 
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+    maxZoom: 18,
+}).addTo(romanMap);
+
 // Call getData function for each map
 getData(statueMap, 'data/statues.geojson', 'img/statue.svg');
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
+getData(romanMap, 'data/romans.geojson', 'img/statue.svg');
 
 // function to retrieve the data and place it on the map
 function getData(map, url, iconUrl) {
