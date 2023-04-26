@@ -68,19 +68,19 @@
 }
 
 #statueMap { 
-    height: 675px; 
+    height: 100vh; 
     width: 100%; 
     display: inline-block; 
 }
 
 #museumMap {
-    height: 675px; 
+    height: 100vh; 
     width: 100%; 
     display: inline-block; 
 }
 
 #romanMap {
-    height: 675px; 
+    height: 100vh; 
     width: 100%; 
     display: inline-block; 
 }

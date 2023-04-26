@@ -76,10 +76,21 @@ function getData(map, url, iconUrl) {
                     });
                     return L.marker(latlng, { icon: customIcon });
                 },
+                //style: style,
                 onEachFeature: onEachFeature
             }).addTo(map);
         })
 };
+/*
+function style(feature) {
+    return {
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
+    };
+}*/
 
 // function to attach popups to each mapped feature
 function onEachFeature(feature, layer) {

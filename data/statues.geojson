@@ -240,6 +240,23 @@
                     37.978
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Moschophoros",
+                "Created in": "Kerameikos",
+                "Dated to": "560 BCE",
+                "Artist": "Phaidimos",
+                "Material": "Limestone"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7173,
+                    37.978
+                ]
+            }
         }
     ]
 }
