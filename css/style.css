@@ -85,6 +85,19 @@
     display: inline-block; 
 }
 
+#movementMap {
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#myMap {
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+
 
 /*.leaflet-popup-content {
 background-color:rgb(231, 238, 244);

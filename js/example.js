@@ -35,7 +35,18 @@ var romanMap = L.map('romanMap', {
 
 });
 
-// Add OSM base tilelayer to the maps
+var movementMap = L.map('movementMap', {
+    center: [39, 25],
+    zoom: 5,
+    maxZoom: 12,
+    minZoom: 4,
+    scrollWheelZoom: false,
+    zoomControl: true,
+
+});
+
+
+// Add base tilelayer to the maps
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
     maxZoom: 18,
 }).addTo(statueMap);
@@ -48,14 +59,21 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
     maxZoom: 18,
 }).addTo(romanMap);
 
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+    maxZoom: 18,
+}).addTo(movementMap);
+
 // Call getData function for each map
 getData(statueMap, 'data/statues.geojson', 'img/statue.svg');
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
 getData(romanMap, 'data/romans.geojson', 'img/statue.svg');
+getData(movementMap, 'data/statue-lines.geojson');
+getData(movementMap, 'data/statues.geojson', 'img/statue.svg');
+getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg');
 
-// function to retrieve the data and place it on the map
+
 function getData(map, url, iconUrl) {
-    // load the data, then map
+    // load the data, then add it to the map
     fetch(url)
         .then(function(response) {
             return response.json();
@@ -76,21 +94,22 @@ function getData(map, url, iconUrl) {
                     });
                     return L.marker(latlng, { icon: customIcon });
                 },
-                //style: style,
+                style: style,
                 onEachFeature: onEachFeature
             }).addTo(map);
         })
 };
-/*
+
+
 function style(feature) {
     return {
         weight: 2,
         opacity: 1,
-        color: 'white',
+        color: 'black',
         dashArray: '3',
         fillOpacity: 0.7
     };
-}*/
+}
 
 // function to attach popups to each mapped feature
 function onEachFeature(feature, layer) {
