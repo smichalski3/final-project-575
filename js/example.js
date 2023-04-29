@@ -92,7 +92,14 @@ function getData(map, url, iconUrl) {
                         iconSize: [40, 40], // size of the icon
                         iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
                     });
-                    return L.marker(latlng, { icon: customIcon });
+                    var marker = L.marker(latlng, { icon: customIcon });
+                    marker.on('mouseover', function() {
+                        var popup = L.popup()
+                            .setLatLng(latlng)
+                            .setContent(feature.properties.name) // change this to customize the popup content
+                            .openOn(map);
+                    });
+                    return marker;
                 },
                 style: style,
                 onEachFeature: onEachFeature
@@ -100,13 +107,12 @@ function getData(map, url, iconUrl) {
         })
 };
 
-
 function style(feature) {
     return {
         weight: 2,
         opacity: 1,
-        color: 'black',
-        dashArray: '3',
+        color: '#787878',
+        dashArray: '0',
         fillOpacity: 0.7
     };
 }
@@ -124,6 +130,13 @@ function onEachFeature(feature, layer) {
                 popupContent += "<img id='test' src='" + feature.properties[property] + "'>";
             }
         }
-        layer.bindPopup(popupContent);
+    // bind the popup to the layer, and show it on hover
+    layer.bindPopup(popupContent, { closeButton: false, offset: L.point(0, -10) });
+    layer.on('mouseover', function(e) {
+        this.openPopup();
+    });
+    layer.on('mouseout', function(e) {
+        this.closePopup();
+    });
     };
 };
