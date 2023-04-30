@@ -66,7 +66,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 // Call getData function for each map
 getData(statueMap, 'data/statues.geojson', 'img/statue.svg');
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
-getData(romanMap, 'data/romans.geojson', 'img/statue.svg');
+getData(romanMap, 'data/romans.geojson', 'img/roman-statue.svg');
 getData(movementMap, 'data/movement-lines.geojson');
 getData(movementMap, 'data/statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg');
