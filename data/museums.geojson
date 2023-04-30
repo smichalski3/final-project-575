@@ -4,7 +4,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Paris"
+                "Name": "Musée du Louvre"
             },
             "geometry": {
                 "type": "Point",
@@ -14,32 +14,7 @@
                 ]
             }
         },
-        {
-            "type": "Feature",
-            "properties": {
-                "Name": "Paris"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    2.3376,
-                    48.8606
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Name": "Olympia"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    21.6243,
-                    37.6394
-                ]
-            }
-        },
+ 
         {
             "type": "Feature",
             "properties": {
@@ -56,7 +31,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "London"
+                "Name": "British Museum"
             },
             "geometry": {
                 "type": "Point",
@@ -69,7 +44,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Olympia"
+                "Name": "Archaeological Museum of Olympia"
             },
             "geometry": {
                 "type": "Point",
@@ -79,36 +54,12 @@
                 ]
             }
         },
+
+
         {
             "type": "Feature",
             "properties": {
-                "Name": "London"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -0.127,
-                    51.5194
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Name": "Paris"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    2.3376,
-                    48.8606
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Name": "Athens"
+                "Name": "National Archaeological Museum"
             },
             "geometry": {
                 "type": "Point",
@@ -121,7 +72,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Munich"
+                "Name": "Glyptothek"
             },
             "geometry": {
                 "type": "Point",
@@ -134,7 +85,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Delphi"
+                "Name": "Delphi Archaeological Museum"
             },
             "geometry": {
                 "type": "Point",
@@ -147,7 +98,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Calabria"
+                "Name": "National Archaeological Museum of Reggio Calabria"
             },
             "geometry": {
                 "type": "Point",
@@ -158,42 +109,17 @@
             },
             "id": 11
         },
+
         {
             "type": "Feature",
             "properties": {
-                "Name": "London"
+                "Name": "Acropolis Museum"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -0.127,
-                    51.5194
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Name": "Athens"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    23.7328,
-                    37.989
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Name": "Delphi"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    22.499905,
-                    38.480167
+                    23.7285,
+                    37.9684
                 ]
             }
         }

@@ -134,8 +134,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    24.530005,
-                    35.427416
+                    24.53,
+                    35.35
                 ]
             }
         },
@@ -230,25 +230,8 @@
                 "Statue Name": "The Sacred Gate Dipylon Kouros",
                 "Created in": "Kerameikos",
                 "Dated to": "560 BCE",
-                "Artist": "Unknwon",
+                "Artist": "Unknown",
                 "Material": "Naxian Marble"  
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    23.7173,
-                    37.978
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Statue Name": "Moschophoros",
-                "Created in": "Kerameikos",
-                "Dated to": "560 BCE",
-                "Artist": "Phaidimos",
-                "Material": "Limestone"  
             },
             "geometry": {
                 "type": "Point",
