@@ -1,3 +1,4 @@
+
 /*declaring font styles*/
 @font-face {
     font-family: aquiline;
@@ -11,6 +12,9 @@
 }
 
 
+/* POP-UP STYLES*/
+
+
 /* pop-up content style for statueMap */
 #statueMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
@@ -21,6 +25,48 @@
 }
 #statueMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
     background-color: #ffe8f2 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for archaicMap */
+#archaicMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#archaicMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for classicalMap */
+#classicalMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#classicalMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for hellenisticMap */
+#hellenisticMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#hellenisticMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
 }
@@ -68,6 +114,9 @@
 }
 
 
+
+/* TEXT STYLING */
+
 .title {
     color: white;
     font-family: aquiline;
@@ -82,7 +131,29 @@
     margin-top: 100px;
 }
 
+
+
+/* creating map containers on screen*/
+
 #statueMap { 
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#archaicMap { 
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#classicalMap { 
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#hellenisticMap { 
     height: 100vh; 
     width: 100%; 
     display: inline-block; 

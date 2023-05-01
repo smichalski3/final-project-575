@@ -26,7 +26,7 @@
                 "Dated to": "2nd c. BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image":"img/winged-victory.jpg"
+               "image":"img/winged-victory.jpg"
 
             },
             "geometry": {
@@ -44,7 +44,7 @@
                 "Created in": "Olympia",
                 "Dated to": "480-470 BCE",
                 "Artist": "Unknown",
-                "Material": "Greek terracotta"
+                "Material": "Terracotta"
             },
             "geometry": {
                 "type": "Point",
@@ -83,7 +83,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    23.7275,
+                    23.72,
                     37.9838
                 ]
             }
@@ -151,8 +151,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    23.72611,
-                    37.970833
+                    23.726,
+                    37.965
                 ]
             }
         },
@@ -219,8 +219,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    23.7275,
-                    37.9838
+                    23.72,
+                    37.98
                 ]
             }
         },
@@ -231,13 +231,105 @@
                 "Created in": "Kerameikos",
                 "Dated to": "560 BCE",
                 "Artist": "Unknown",
-                "Material": "Naxian Marble"  
+                "Material": "Marble"  
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     23.7173,
                     37.978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Kouros of Piombino",
+                "Created in": "Rhodes",
+                "Dated to": "5th c. BCE",
+                "Artist": "Menodotos of Tyre and Xenophon of Rhodes",
+                "Material": "Bronze"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.2176,
+                    36.4341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Kouros of Paros",
+                "Created in": "Paros",
+                "Dated to": "6th c. BCE",
+                "Artist": "Unknown",
+                "Material": "Marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1515,
+                    37.0854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Mourning Athena",
+                "Created in": "Athens",
+                "Dated to": "460 BCE",
+                "Artist": "Unknown",
+                "Material": "Marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7275,
+                    37.9838
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Nike Loosening Her Sandal",
+                "Created in": "Temple of Athena Nike",
+                "Dated to": "420 BCE",
+                "Artist": "Unknown",
+                "Material": "Marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7249,
+                    37.9715
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Borghese Gladiator",
+                "Created in": "Ephesus",
+                "Dated to": "100 BCE",
+                "Artist": "Agasias",
+                "Material": "Marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.3419,
+                    37.9411
                 ]
             }
         }

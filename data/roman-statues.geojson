@@ -48,8 +48,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    12.49,
-                    41.90
+                    12.492439,
+                    41.879040
                 ]
             }
         },
@@ -103,6 +103,44 @@
                     41.9428
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Three Graces",
+                "Found in": "Rome",
+                "Dated to": "3rd c. BCE",
+                "Artist": "Unknown",
+                "Material": "Marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49,
+                    41.90
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Apollo Lykeios",
+                "Found in": "The Lyceum",
+                "Dated to": "370-360 BCE",
+                "Artist": "Praxiteles",
+                "Material": "Marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7433,
+                    37.9740
+                ]
+            }
         }
+
     ]
 }

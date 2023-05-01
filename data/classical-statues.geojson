@@ -1,0 +1,183 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Zeus and Ganymede",
+                "Created in": "Olympia",
+                "Dated to": "480-470 BCE",
+                "Artist": "Unknown",
+                "Material": "Greek terracotta"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.6299,
+                    37.6388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Artemision Bronze",
+                "Created in": "Artemisio",
+                "Dated to": "460 BCE",
+                "Artist": "Kalamis",
+                "Material": "Bronze"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.2278,
+                    39.0099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "The Parthenon Marbles",
+                "Created in": "Athens",
+                "Dated to": "5th c. BCE",
+                "Artist": "Pheidias",
+                "Material": "Marble"                 
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.72,
+                    37.9838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Hermes and the Infant Dionysus",
+                "Created in": "Olympia",
+                "Dated to": "4th c. BCE",
+                "Artist": "Praxiteles",
+                "Material": "Marble"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.6299,
+                    37.6388
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Kritios Boy",
+                "Created in": "Athens",
+                "Dated to": "480 BCE",
+                "Artist": "Kritios",
+                "Material": "Marble"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.726,
+                    37.965
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Charioteer of Delphi",
+                "Created in": "Delphi",
+                "Dated to": "474 BCE",
+                "Artist": "Unknown",
+                "Material": "Bronze"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.4941,
+                    38.4801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Riace Bronzes",
+                "Created in": "Argolis",
+                "Dated to": "460-450 BCE",
+                "Artist": "Pheidias",
+                "Material": "Bronze"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.8582,
+                    37.6525
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Marble Metopes of the Parthenon",
+                "Created in": "Athens",
+                "Dated to": "447-438 BCE",
+                "Artist": "Pheidias",
+                "Material": "Marble"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.72,
+                    37.98
+                ]
+            }
+        },
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Mourning Athena",
+                "Created in": "Athens",
+                "Dated to": "460 BCE",
+                "Artist": "Unknown",
+                "Material": "Parian marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7275,
+                    37.9838
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Nike Loosening Her Sandal",
+                "Created in": "Temple of Athena Nike",
+                "Dated to": "420 BCE",
+                "Artist": "Unknown",
+                "Material": "Pentelic marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7249,
+                    37.9715
+                ]
+            }
+        }
+    ]
+}

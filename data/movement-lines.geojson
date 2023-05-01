@@ -16,6 +16,12 @@
 { "type": "Feature", "properties": { "Name": "The Artemision Bronze", "begin": "5", "end": "19" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.2278, 39.0099 ], [ 23.7328, 37.989 ] ] } },
 { "type": "Feature", "properties": { "Name": "The Parthenon Marbles", "begin": "6", "end": "20" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.7275, 37.9838 ], [ -0.127, 51.5194 ] ] } },
 { "type": "Feature", "properties": { "Name": "The Charioteer of Delphi", "begin": "12", "end": "26" }, "geometry": { "type": "LineString", "coordinates": [ [ 22.4941, 38.4801 ], [ 22.499905, 38.480167 ] ] } },
-{ "type": "Feature", "properties": { "Name": "The Sacred Gate of Dipylon Kouros", "begin": "15", "end": "29" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.7173, 37.978 ], [ 23.7328, 37.989 ] ] } }
+{ "type": "Feature", "properties": { "Name": "The Sacred Gate of Dipylon Kouros", "begin": "15", "end": "29" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.7173, 37.978 ], [ 23.7328, 37.989 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Kouros of Piombino", "begin": "15", "end": "29" }, "geometry": { "type": "LineString", "coordinates": [ [ 28.2176, 36.4341 ], [ 2.3376, 48.8606 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Kouros of Paros", "begin": "15", "end": "29" }, "geometry": { "type": "LineString", "coordinates": [ [ 25.1515, 37.0854 ], [ 2.3376, 48.8606 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Mourning Athena", "begin": "15", "end": "29" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.7275, 37.9838 ], [ 23.7285, 37.9684 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Nike Loosening Her Sandal", "begin": "15", "end": "29" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.7249, 37.9715 ], [ 23.7285, 37.9684 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Borghese Gladiator", "begin": "15", "end": "29" }, "geometry": { "type": "LineString", "coordinates": [ [  27.3419, 37.9411 ], [ 2.3376, 48.8606 ] ] } }
+
 ]
 }

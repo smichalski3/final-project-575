@@ -1,0 +1,79 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Venus de Milo",
+                "Created in": "Melos Island",
+                "Dated to": "130-100 BCE",
+                "Artist": "Alexander of Anitoch",
+                "Material": "Marble"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.3936,
+                    36.6914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Nike of Samothrace (Winged Victory)",
+                "Created in": "Samothrace",
+                "Dated to": "2nd c. BCE",
+                "Artist": "Unknown",
+                "Material": "Marble",
+               "image":"img/winged-victory.jpg"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.5918,
+                    40.4477
+                ]
+            }
+        },
+ 
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Altar of Pergamon",
+                "Created in": "Pergamon",
+                "Dated to": "181-159 BCE",
+                "Artist": "Unknown",
+                "Material": "Marble"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.184168,
+                    39.1325
+                ]
+            }
+        },
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Borghese Gladiator",
+                "Created in": "Ephesus",
+                "Dated to": "100 BCE",
+                "Artist": "Agasias",
+                "Material": "Pentelic marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.3419,
+                    37.9411
+                ]
+            }
+        }
+    ]
+}
