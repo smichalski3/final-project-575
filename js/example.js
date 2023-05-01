@@ -27,18 +27,22 @@ var museumMap = L.map('museumMap', {
 
 var romanMap = L.map('romanMap', {
     center: [39, 25],
-    zoom: 5,
+    zoom: 6,
     maxZoom: 12,
     minZoom: 4,
     scrollWheelZoom: false,
     zoomControl: true,
+    maxBounds: [
+        [50, 50],
+        [25, 0]
+    ],
 
 });
 
 var movementMap = L.map('movementMap', {
     center: [39, 25],
     zoom: 5,
-    maxZoom: 23,
+    maxZoom: 12,
     minZoom: 4,
     scrollWheelZoom: false,
     zoomControl: true,
@@ -60,13 +64,14 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 }).addTo(romanMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
-    maxZoom: 23,
+    maxZoom: 18,
 }).addTo(movementMap);
 
 // Call getData function for each map
 getData(statueMap, 'data/statues.geojson', 'img/statue.svg');
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
 getData(romanMap, 'data/romans.geojson', 'img/roman-statue.svg');
+getData(romanMap, 'data/statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/movement-lines.geojson');
 getData(movementMap, 'data/statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg');
