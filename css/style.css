@@ -57,6 +57,20 @@
     opacity: 0.9
 }
 
+/* pop-up content style for athensMap */
+#athensMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#athensMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
 /* pop-up content style for hellenisticMap */
 #hellenisticMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
@@ -148,6 +162,12 @@
 }
 
 #classicalMap { 
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#athensMap { 
     height: 100vh; 
     width: 100%; 
     display: inline-block; 

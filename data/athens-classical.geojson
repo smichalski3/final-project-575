@@ -1,84 +1,68 @@
 {
     "type": "FeatureCollection",
     "features": [
-       
         {
             "type": "Feature",
             "properties": {
-                "Statue Name": "The Lady of Auxerre",
-                "Created in": "Crete",
-                "Dated to": "640-630 BCE",
-                "Artist": "Unknown",
-                "Material": "Limestone"  
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    24.53,
-                    35.35
-                ]
-            }
-        },
-     
-        {
-            "type": "Feature",
-            "properties": {
-                "Statue Name": "The Dying Warrior",
-                "Created in": "Aegina",
-                "Dated to": "480 BCE",
-                "Artist": "Unknown",
-                "Material": "Marble"  
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    23.5014,
-                    37.7409
-                ]
-            }
-        },
-    
-        {
-            "type": "Feature",
-            "properties": {
-                "Statue Name": "The Sacred Gate Dipylon Kouros",
-                "Created in": "Kerameikos",
-                "Dated to": "560 BCE",
-                "Artist": "Unknown",
-                "Material": "Marble"  
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    23.7173,
-                    37.978
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Statue Name" : "Kouros of Piombino",
-                "Created in": "Rhodes",
+                "Statue Name" : "The Parthenon Marbles",
+                "Created in": "Athens",
                 "Dated to": "5th c. BCE",
-                "Artist": "Menodotos of Tyre and Xenophon of Rhodes",
-                "Material": "Bronze"
-
+                "Artist": "Pheidias",
+                "Material": "Marble"                 
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.2176,
-                    36.4341
+                    23.72,
+                    37.9838
                 ]
             }
         },
+
         {
             "type": "Feature",
             "properties": {
-                "Statue Name" : "Kouros of Paros",
-                "Created in": "Paros",
-                "Dated to": "6th c. BCE",
+                "Statue Name": "The Kritios Boy",
+                "Created in": "Athens",
+                "Dated to": "480 BCE",
+                "Artist": "Kritios",
+                "Material": "Marble"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.726,
+                    37.965
+                ]
+            }
+        },
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Marble Metopes of the Parthenon",
+                "Created in": "Athens",
+                "Dated to": "447-438 BCE",
+                "Artist": "Pheidias",
+                "Material": "Marble"  
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.72,
+                    37.98
+                ]
+            }
+        },
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Mourning Athena",
+                "Created in": "Athens",
+                "Dated to": "460 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble"
 
@@ -86,12 +70,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    25.1515,
-                    37.0854
+                    23.7275,
+                    37.9838
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name" : "Nike Loosening Her Sandal",
+                "Created in": "Temple of Athena Nike",
+                "Dated to": "420 BCE",
+                "Artist": "Unknown",
+                "Material": "Marble"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7249,
+                    37.9715
                 ]
             }
         }
- 
-
     ]
 }

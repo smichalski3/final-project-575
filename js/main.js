@@ -13,7 +13,7 @@ var statueMap = L.map('statueMap', {
 });
 
 var archaicMap = L.map('archaicMap', {
-  center: [39, 25],
+  center: [39, 30],
   zoom: 6,
   maxZoom: 12,
   minZoom: 4,
@@ -26,7 +26,7 @@ var archaicMap = L.map('archaicMap', {
 });
 
 var classicalMap = L.map('classicalMap', {
-  center: [39, 25],
+  center: [39, 30],
   zoom: 6,
   maxZoom: 12,
   minZoom: 4,
@@ -38,8 +38,21 @@ var classicalMap = L.map('classicalMap', {
   ],
 });
 
+var athensMap = L.map('athensMap', {
+  center: [38, 23.8],
+  zoom: 12,
+  maxZoom: 20,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  maxBounds: [
+      [50, 50],
+      [25, 0]
+  ],
+});
+
 var hellenisticMap = L.map('hellenisticMap', {
-  center: [39, 25],
+  center: [39, 30],
   zoom: 6,
   maxZoom: 12,
   minZoom: 4,
@@ -59,7 +72,7 @@ var museumMap = L.map('museumMap', {
   scrollWheelZoom: false,
   zoomControl: true,
   maxBounds: [
-      [50, 20],
+      [70, 20],
       [25, 0]
   ],
 });
@@ -85,7 +98,10 @@ var movementMap = L.map('movementMap', {
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
-
+  maxBounds: [
+    [70, 20],
+    [25, 0]
+  ]
 });
 
 
@@ -101,6 +117,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
 }).addTo(classicalMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 18,
+}).addTo(athensMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
@@ -121,10 +141,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 // Call getData function for each map
 getData(statueMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(archaicMap, 'data/archaic-statues.geojson', 'img/statue.svg');
-getData(classicalMap, 'data/archaic-statues.geojson', 'img/statue.svg');
 getData(classicalMap, 'data/classical-statues.geojson', 'img/statue.svg');
-getData(hellenisticMap, 'data/archaic-statues.geojson', 'img/statue.svg');
-getData(hellenisticMap, 'data/classical-statues.geojson', 'img/statue.svg');
+getData(athensMap, 'data/athens-classical.geojson', 'img/statue.svg');
 getData(hellenisticMap, 'data/hellenistic-statues.geojson', 'img/statue.svg');
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
 getData(romanMap, 'data/roman-statues.geojson', 'img/roman-statue.svg');

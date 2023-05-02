@@ -8,13 +8,13 @@
                 "Created in": "Olympia",
                 "Dated to": "480-470 BCE",
                 "Artist": "Unknown",
-                "Material": "Greek terracotta"
+                "Material": "Terracotta"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    21.6299,
-                    37.6388
+                    21.62,
+                    37.63
                 ]
             }
         },
@@ -149,7 +149,7 @@
                 "Created in": "Athens",
                 "Dated to": "460 BCE",
                 "Artist": "Unknown",
-                "Material": "Parian marble"
+                "Material": "Marble"
 
             },
             "geometry": {
@@ -168,7 +168,7 @@
                 "Created in": "Temple of Athena Nike",
                 "Dated to": "420 BCE",
                 "Artist": "Unknown",
-                "Material": "Pentelic marble"
+                "Material": "Marble"
 
             },
             "geometry": {
