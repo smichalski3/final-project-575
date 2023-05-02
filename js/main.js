@@ -1,6 +1,6 @@
 // Initialize the maps
 var statueMap = L.map('statueMap', {
-  center: [39, 25],
+  center: [39, 21],
   zoom: 6,
   maxZoom: 12,
   minZoom: 4,
@@ -10,6 +10,34 @@ var statueMap = L.map('statueMap', {
       [50, 50],
       [25, 0]
   ],
+});
+
+var romanMap = L.map('romanMap', {
+  center: [39, 21],
+  zoom: 6,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  maxBounds: [
+      [50, 50],
+      [25, 0]
+  ],
+
+});
+
+var venusMap = L.map('venusMap', {
+  center: [36.65, 24.5],
+  zoom: 10,
+  maxZoom: 18,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  maxBounds: [
+      [50, 50],
+      [25, 0]
+  ],
+
 });
 
 var archaicMap = L.map('archaicMap', {
@@ -90,20 +118,6 @@ var museumStatuesMap = L.map('museumStatuesMap', {
   ],
 });
 
-var romanMap = L.map('romanMap', {
-  center: [39, 25],
-  zoom: 6,
-  maxZoom: 12,
-  minZoom: 4,
-  scrollWheelZoom: false,
-  zoomControl: true,
-  maxBounds: [
-      [50, 50],
-      [25, 0]
-  ],
-
-});
-
 var movementMap = L.map('movementMap', {
   center: [39, 25],
   zoom: 5,
@@ -122,6 +136,14 @@ var movementMap = L.map('movementMap', {
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
 }).addTo(statueMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 18,
+}).addTo(romanMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 18,
+}).addTo(venusMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
@@ -149,14 +171,13 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
-}).addTo(romanMap);
-
-L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
-  maxZoom: 18,
 }).addTo(movementMap);
 
 // Call getData function for each map
 getData(statueMap, 'data/greek-statues.geojson', 'img/statue.svg');
+getData(romanMap, 'data/roman-statues.geojson', 'img/roman-statue.svg');
+getData(romanMap, 'data/greek-statues.geojson', 'img/statue.svg');
+getData(venusMap, 'data/venus.geojson', 'img/statue.svg');
 getData(archaicMap, 'data/archaic-statues.geojson', 'img/statue.svg');
 getData(classicalMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(athensMap, 'data/athens-classical.geojson', 'img/statue.svg');
@@ -164,8 +185,6 @@ getData(hellenisticMap, 'data/hellenistic-statues.geojson', 'img/statue.svg');
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
 getData(museumStatuesMap, 'data/museums.geojson', 'img/greek-column.svg');
 getData(museumStatuesMap, 'data/greek-statues.geojson', 'img/statue.svg');
-getData(romanMap, 'data/roman-statues.geojson', 'img/roman-statue.svg');
-getData(romanMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/movement-lines.geojson');
 getData(movementMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg');

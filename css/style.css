@@ -29,6 +29,34 @@
     opacity: 0.9
 }
 
+/* pop-up content style for romanMap */
+#romanMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#romanMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f2e8ff !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for romanMap */
+#venusMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#venusMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f2e8ff !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
 /* pop-up content style for archaicMap */
 #archaicMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
@@ -113,20 +141,6 @@
     opacity: 0.9
 }
 
-/* pop-up content style for romanMap */
-#romanMap .leaflet-popup-content p { 
-    margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
-    color: black;
-    font-size: 13px;
-}
-#romanMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
-    background-color: #f2e8ff !important;
-    border-radius: 6px !important;
-    opacity: 0.9
-}
-
 /* pop-up content style for movementMap */
 #movementMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
@@ -159,11 +173,32 @@
     margin-top: 100px;
 }
 
+.header {
+    font-size: 30px;
+    font-family: aquiline;
+    color: white;
+}
+
+/*.row {
+    font-size: 40px;
+}*/
 
 
 /* creating map containers on screen*/
 
 #statueMap { 
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#romanMap {
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#venusMap {
     height: 100vh; 
     width: 100%; 
     display: inline-block; 
@@ -200,12 +235,6 @@
 }
 
 #museumStatuesMap {
-    height: 100vh; 
-    width: 100%; 
-    display: inline-block; 
-}
-
-#romanMap {
     height: 100vh; 
     width: 100%; 
     display: inline-block; 

@@ -1,0 +1,23 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Venus de Milo",
+                "Created in": "Melos Island",
+                "Dated to": "130-100 BCE",
+                "Artist": "Alexandros of Anitoch",
+                "Material": "Marble"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.3936,
+                    36.6914
+                ]
+            }
+        }
+
+    ]
+}
