@@ -99,6 +99,20 @@
     opacity: 0.9
 }
 
+/* pop-up content style for museumStatuesMap */
+#museumStatuesMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#museumStatues .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
 /* pop-up content style for romanMap */
 #romanMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
@@ -180,6 +194,12 @@
 }
 
 #museumMap {
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#museumStatuesMap {
     height: 100vh; 
     width: 100%; 
     display: inline-block; 

@@ -77,6 +77,19 @@ var museumMap = L.map('museumMap', {
   ],
 });
 
+var museumStatuesMap = L.map('museumStatuesMap', {
+  center: [39, 25],
+  zoom: 5,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  maxBounds: [
+      [70, 20],
+      [25, 0]
+  ],
+});
+
 var romanMap = L.map('romanMap', {
   center: [39, 25],
   zoom: 6,
@@ -132,6 +145,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
+}).addTo(museumStatuesMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 18,
 }).addTo(romanMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
@@ -145,6 +162,8 @@ getData(classicalMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(athensMap, 'data/athens-classical.geojson', 'img/statue.svg');
 getData(hellenisticMap, 'data/hellenistic-statues.geojson', 'img/statue.svg');
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
+getData(museumStatuesMap, 'data/museums.geojson', 'img/greek-column.svg');
+getData(museumStatuesMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(romanMap, 'data/roman-statues.geojson', 'img/roman-statue.svg');
 getData(romanMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/movement-lines.geojson');
