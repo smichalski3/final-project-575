@@ -8,7 +8,8 @@
                 "Created in": "Olympia",
                 "Dated to": "480-470 BCE",
                 "Artist": "Unknown",
-                "Material": "Terracotta"
+                "Material": "Terracotta",
+                "image":"img/greek statue pics/zeus-and-ganymede.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -25,7 +26,8 @@
                 "Created in": "Artemisio",
                 "Dated to": "460 BCE",
                 "Artist": "Kalamis",
-                "Material": "Bronze"
+                "Material": "Bronze",
+                "image":"img/greek statue pics/artemision-bronze.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -42,7 +44,8 @@
                 "Created in": "Athens",
                 "Dated to": "5th c. BCE",
                 "Artist": "Pheidias",
-                "Material": "Marble"                 
+                "Material": "Marble", 
+                "image":"img/greek statue pics/parthenon-marbles.jpg"                
             },
             "geometry": {
                 "type": "Point",
@@ -59,7 +62,8 @@
                 "Created in": "Olympia",
                 "Dated to": "4th c. BCE",
                 "Artist": "Praxiteles",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":"img/greek statue pics/hermes-infant.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -77,7 +81,8 @@
                 "Created in": "Athens",
                 "Dated to": "480 BCE",
                 "Artist": "Kritios",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":"img/greek statue pics/kritios-boy.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -95,7 +100,8 @@
                 "Created in": "Delphi",
                 "Dated to": "474 BCE",
                 "Artist": "Unknown",
-                "Material": "Bronze"  
+                "Material": "Bronze",
+                "image":"img/greek statue pics/charioteer.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -112,7 +118,8 @@
                 "Created in": "Argolis",
                 "Dated to": "460-450 BCE",
                 "Artist": "Pheidias",
-                "Material": "Bronze"  
+                "Material": "Bronze",
+                "image":"img/greek statue pics/riace-bronzes.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -130,7 +137,8 @@
                 "Created in": "Athens",
                 "Dated to": "447-438 BCE",
                 "Artist": "Pheidias",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":"img/greek statue pics/marble-metope.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -149,7 +157,8 @@
                 "Created in": "Athens",
                 "Dated to": "460 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":"img/greek statue pics/mourning-athena.jpg"
 
             },
             "geometry": {
@@ -168,7 +177,8 @@
                 "Created in": "Temple of Athena Nike",
                 "Dated to": "420 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":"img/greek statue pics/nike-sandal.jpg"
 
             },
             "geometry": {

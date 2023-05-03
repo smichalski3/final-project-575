@@ -8,7 +8,8 @@
                 "Created in": "Melos Island",
                 "Dated to": "130-100 BCE",
                 "Artist": "Alexandros of Anitoch",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":"img/greek statue pics/venusdemilo.jpeg"
             },
             "geometry": {
                 "type": "Point",
@@ -26,7 +27,7 @@
                 "Dated to": "2nd c. BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-               "image":"img/winged-victory.jpg"
+               "image":"img/greek statue pics/winged-victory.jpg"
 
             },
             "geometry": {
@@ -45,7 +46,8 @@
                 "Created in": "Pergamon",
                 "Dated to": "181-159 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":"img/greek statue pics/altar-pergamon.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -64,7 +66,8 @@
                 "Created in": "Ephesus",
                 "Dated to": "100 BCE",
                 "Artist": "Agasias",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":"img/greek statue pics/borghese-gladiator.jpg"
 
             },
             "geometry": {

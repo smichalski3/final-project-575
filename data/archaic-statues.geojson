@@ -9,7 +9,8 @@
                 "Created in": "Crete",
                 "Dated to": "640-630 BCE",
                 "Artist": "Unknown",
-                "Material": "Limestone"  
+                "Material": "Limestone",
+                "image":"img/greek statue pics/lady-auxerre.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -27,7 +28,8 @@
                 "Created in": "Aegina",
                 "Dated to": "480 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":"img/greek statue pics/dying-warrior-statue.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -45,7 +47,8 @@
                 "Created in": "Kerameikos",
                 "Dated to": "560 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":"img/greek statue pics/kouros.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -62,7 +65,8 @@
                 "Created in": "Rhodes",
                 "Dated to": "5th c. BCE",
                 "Artist": "Menodotos of Tyre and Xenophon of Rhodes",
-                "Material": "Bronze"
+                "Material": "Bronze",
+                "image":"img/greek statue pics/kouros-piombino.jpg"
 
             },
             "geometry": {
@@ -80,7 +84,8 @@
                 "Created in": "Paros",
                 "Dated to": "6th c. BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":"img/greek statue pics/kouros-of-paros.jpg"
 
             },
             "geometry": {
