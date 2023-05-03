@@ -219,16 +219,32 @@ function getData(map, url, iconUrl, highlight) {
                 // bind the popup to the layer, and show it on click
                 layer.bindPopup(popupContent, { closeButton: false, offset: L.point(0, -10) });
                 layer.on('click', function(e) {
+                     var museum = layer.feature.properties["Museum name"];
                     this.openPopup();
                     if (highlight) {
                       map.eachLayer(function(layer){
-                        if (layer.feature.properties.Name === feature.properties.name && layer.feature.geometry.type === 'Point') {
-                          var customIcon = L.icon({
-                              iconUrl: 'img/highlight-statue.svg',
-                              iconSize: [40, 40], // size of the icon
-                              iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
-                          });
-                          layer.setIcon(customIcon);
+                        if (layer.feature) {
+                          if (layer.feature.properties.Artist && layer.feature.geometry.type == "Point"){
+                            var statueMuseum = layer.feature.properties["Museum name"]//change ARTIST TO MUSEUM
+                            if (museum == statueMuseum){
+                              var customIcon = L.icon({
+                                iconUrl: 'img/highlight-statue.svg',
+                                iconSize: [40, 40], // size of the icon
+                                iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
+                              });
+                              layer.setIcon(customIcon);
+                            }
+                            else{
+                              var customIcon = L.icon({
+                                iconUrl: 'img/statue.svg',
+                                iconSize: [40, 40], // size of the icon
+                                iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
+                              });
+                              layer.setIcon(customIcon);
+                            }
+                            
+                        }
+                          
                         }
                       });
                     }
