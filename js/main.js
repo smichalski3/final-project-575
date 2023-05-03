@@ -187,10 +187,10 @@ getData(museumStatuesMap, 'data/museums.geojson', 'img/greek-column.svg');
 getData(museumStatuesMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/movement-lines.geojson');
 getData(movementMap, 'data/greek-statues.geojson', 'img/statue.svg');
-getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg');
+getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg',true);
 
 
-function getData(map, url, iconUrl) {
+function getData(map, url, iconUrl, highlight) {
   // load the data, then add it to the map
   fetch(url)
       .then(function(response) {
@@ -220,7 +220,54 @@ function getData(map, url, iconUrl) {
                   return marker;
               },
               style: style,
-              onEachFeature: onEachFeature
+              onEachFeature: function(feature, layer) {
+                var popupContent = "";
+                if (feature.properties) {
+                    // loop to add feature property names and values to html string
+                    for (var property in feature.properties) {
+                        if (property != "image"){
+                            popupContent += "<p>" + property + ": " + feature.properties[property] + "</p>";
+                        }
+                        else{
+                            popupContent += "<img id='test' src='" + feature.properties[property] + "'>";
+                        }
+                    }
+                // bind the popup to the layer, and show it on hover
+                layer.bindPopup(popupContent, { closeButton: false, offset: L.point(0, -10) });
+                layer.on('mouseover', function(e) {
+                    this.openPopup();
+                    if (highlight) {
+                      map.eachLayer(function(layer){
+
+                        /*if (layer.feature.properties[attribute]){
+                
+                          //access feature properties
+                           var props = layer.feature.properties;
+                
+                           //update each feature's radius based on new attribute values
+                           var radius = calcPropRadius(props[attribute]);
+                           layer.setRadius(radius);
+                
+                           //add city to popup content string
+                           var popupContent = "<p><b>Museum:</b> " + props.Museum + "</p>";
+                
+                           //add formatted attribute to panel content string
+                           var year = attribute.split("_")[1];
+                           popupContent += "<p><b>Visitation in " + year + ":</b> " + props[attribute] + " million</p>";
+                
+                           //update popup with new content
+                           popup = layer.getPopup();
+                           popup.setContent(popupContent).update();
+                
+                        };*/
+                    });
+                    }
+                });
+                layer.on('mouseout', function(e) {
+                    this.closePopup();
+                });
+                };
+              }
           }).addTo(map);
       })
 };
@@ -235,27 +282,5 @@ function style(feature) {
   };
 }
 
-// function to attach popups to each mapped feature
-function onEachFeature(feature, layer) {
-  var popupContent = "";
-  if (feature.properties) {
-      // loop to add feature property names and values to html string
-      for (var property in feature.properties) {
-          if (property != "image"){
-              popupContent += "<p>" + property + ": " + feature.properties[property] + "</p>";
-          }
-          else{
-              popupContent += "<img id='test' src='" + feature.properties[property] + "'>";
-          }
-      }
-  // bind the popup to the layer, and show it on hover
-  layer.bindPopup(popupContent, { closeButton: false, offset: L.point(0, -10) });
-  layer.on('mouseover', function(e) {
-      this.openPopup();
-  });
-  layer.on('mouseout', function(e) {
-      this.closePopup();
-  });
-  };
-};
+
 
