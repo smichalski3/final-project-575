@@ -9,7 +9,7 @@
                 "Dated to": "130-100 BCE",
                 "Artist": "Alexandros of Anitoch",
                 "Material": "Marble",
-                "image":""
+                "image":"img/venusdemilo.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -46,7 +46,7 @@
                 "Dated to": "480-470 BCE",
                 "Artist": "Unknown",
                 "Material": "Terracotta",
-                "image":""
+                "image":"img/zeus-and-ganymede.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -64,7 +64,7 @@
                 "Dated to": "460 BCE",
                 "Artist": "Kalamis",
                 "Material": "Bronze",
-                "image":""
+                "image":"img/artemision-bronze.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -82,7 +82,7 @@
                 "Dated to": "5th c. BCE",
                 "Artist": "Pheidias",
                 "Material": "Marble", 
-                "image":""                
+                "image":"img/parthenon-marbles.jpg"                
             },
             "geometry": {
                 "type": "Point",
@@ -100,7 +100,7 @@
                 "Dated to": "4th c. BCE",
                 "Artist": "Praxiteles",
                 "Material": "Marble",
-                "image":""  
+                "image":"img/hermes-infant.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -118,7 +118,7 @@
                 "Dated to": "181-159 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image":""  
+                "image":"img/altar-pergamon.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -136,7 +136,7 @@
                 "Dated to": "640-630 BCE",
                 "Artist": "Unknown",
                 "Material": "Limestone",
-                "image":""  
+                "image":"img/lady-auxerre.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -154,7 +154,7 @@
                 "Dated to": "480 BCE",
                 "Artist": "Kritios",
                 "Material": "Marble",
-                "image":""
+                "image":"img/kritios-boy.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -190,7 +190,7 @@
                 "Dated to": "474 BCE",
                 "Artist": "Unknown",
                 "Material": "Bronze",
-                "image":""  
+                "image":"img/charioteer.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -208,7 +208,7 @@
                 "Dated to": "460-450 BCE",
                 "Artist": "Pheidias",
                 "Material": "Bronze",
-                "image":""  
+                "image":"img/riace-bronzes.jpg"  
             },
             "geometry": {
                 "type": "Point",
