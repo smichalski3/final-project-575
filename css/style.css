@@ -21,10 +21,11 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #statueMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
-    background-color: #ffe8f2 !important;
+    background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
 }
@@ -35,10 +36,11 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #romanMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
-    background-color: #f2e8ff !important;
+    background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
 }
@@ -49,10 +51,11 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #venusMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
-    background-color: #f2e8ff !important;
+    background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
 }
@@ -63,7 +66,8 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #archaicMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
@@ -77,7 +81,8 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #classicalMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
@@ -91,7 +96,8 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #athensMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
@@ -105,7 +111,8 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #hellenisticMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
@@ -119,10 +126,11 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #museumMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
-    background-color: #f2e8ff !important;
+    background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
 }
@@ -133,7 +141,8 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #museumStatues .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
@@ -147,13 +156,23 @@
     font-family: garamond-tall;
     font-weight: bold;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
+    text-align: center;
 }
 #movementMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
 }
+
+.test {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
 
 
 
