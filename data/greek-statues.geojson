@@ -8,7 +8,8 @@
                 "Created in": "Melos Island",
                 "Dated to": "130-100 BCE",
                 "Artist": "Alexandros of Anitoch",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":""
             },
             "geometry": {
                 "type": "Point",
@@ -44,7 +45,8 @@
                 "Created in": "Olympia",
                 "Dated to": "480-470 BCE",
                 "Artist": "Unknown",
-                "Material": "Terracotta"
+                "Material": "Terracotta",
+                "image":""
             },
             "geometry": {
                 "type": "Point",
@@ -61,7 +63,8 @@
                 "Created in": "Artemisio",
                 "Dated to": "460 BCE",
                 "Artist": "Kalamis",
-                "Material": "Bronze"
+                "Material": "Bronze",
+                "image":""
             },
             "geometry": {
                 "type": "Point",
@@ -78,7 +81,8 @@
                 "Created in": "Athens",
                 "Dated to": "5th c. BCE",
                 "Artist": "Pheidias",
-                "Material": "Marble"                 
+                "Material": "Marble", 
+                "image":""                
             },
             "geometry": {
                 "type": "Point",
@@ -95,7 +99,8 @@
                 "Created in": "Olympia",
                 "Dated to": "4th c. BCE",
                 "Artist": "Praxiteles",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":""  
             },
             "geometry": {
                 "type": "Point",
@@ -112,7 +117,8 @@
                 "Created in": "Pergamon",
                 "Dated to": "181-159 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":""  
             },
             "geometry": {
                 "type": "Point",
@@ -129,7 +135,8 @@
                 "Created in": "Crete",
                 "Dated to": "640-630 BCE",
                 "Artist": "Unknown",
-                "Material": "Limestone"  
+                "Material": "Limestone",
+                "image":""  
             },
             "geometry": {
                 "type": "Point",
@@ -146,7 +153,8 @@
                 "Created in": "Athens",
                 "Dated to": "480 BCE",
                 "Artist": "Kritios",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":""
             },
             "geometry": {
                 "type": "Point",
@@ -163,7 +171,8 @@
                 "Created in": "Aegina",
                 "Dated to": "480 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":"img/dying-warrior-statue.jpg"  
             },
             "geometry": {
                 "type": "Point",
@@ -180,7 +189,8 @@
                 "Created in": "Delphi",
                 "Dated to": "474 BCE",
                 "Artist": "Unknown",
-                "Material": "Bronze"  
+                "Material": "Bronze",
+                "image":""  
             },
             "geometry": {
                 "type": "Point",
@@ -197,7 +207,8 @@
                 "Created in": "Argolis",
                 "Dated to": "460-450 BCE",
                 "Artist": "Pheidias",
-                "Material": "Bronze"  
+                "Material": "Bronze",
+                "image":""  
             },
             "geometry": {
                 "type": "Point",
@@ -214,7 +225,8 @@
                 "Created in": "Athens",
                 "Dated to": "447-438 BCE",
                 "Artist": "Pheidias",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":""  
             },
             "geometry": {
                 "type": "Point",
@@ -231,7 +243,8 @@
                 "Created in": "Kerameikos",
                 "Dated to": "560 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"  
+                "Material": "Marble",
+                "image":""  
             },
             "geometry": {
                 "type": "Point",
@@ -248,7 +261,8 @@
                 "Created in": "Rhodes",
                 "Dated to": "5th c. BCE",
                 "Artist": "Menodotos of Tyre and Xenophon of Rhodes",
-                "Material": "Bronze"
+                "Material": "Bronze",
+                "image":""
 
             },
             "geometry": {
@@ -266,7 +280,8 @@
                 "Created in": "Paros",
                 "Dated to": "6th c. BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":""
 
             },
             "geometry": {
@@ -284,7 +299,8 @@
                 "Created in": "Athens",
                 "Dated to": "460 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":""
 
             },
             "geometry": {
@@ -303,7 +319,8 @@
                 "Created in": "Temple of Athena Nike",
                 "Dated to": "420 BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":""
 
             },
             "geometry": {
@@ -322,7 +339,8 @@
                 "Created in": "Ephesus",
                 "Dated to": "100 BCE",
                 "Artist": "Agasias",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image":""
 
             },
             "geometry": {

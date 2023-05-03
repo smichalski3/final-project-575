@@ -174,16 +174,14 @@
 }
 
 .header {
-    font-size: 40px;
+    font-size: 30px;
     font-family: aquiline;
     color: white;
 }
 
-.row {
-    color: black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
+/*.row {
+    font-size: 40px;
+}*/
 
 
 /* creating map containers on screen*/
