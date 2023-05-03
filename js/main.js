@@ -27,7 +27,7 @@ var romanMap = L.map('romanMap', {
 });
 
 var venusMap = L.map('venusMap', {
-  center: [36.65, 24.5],
+  center: [36.65, 24.3],
   zoom: 10,
   maxZoom: 18,
   minZoom: 4,
@@ -166,7 +166,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 
 // Call getData function for each map
 getData(statueMap, 'data/greek-statues.geojson', 'img/statue.svg');
-getData(romanMap, 'data/roman-statues.geojson', 'img/roman-statue.svg');
+getData(romanMap, 'data/roman-statues.geojson', 'img/green-statue.svg');
 getData(romanMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(venusMap, 'data/venus.geojson', 'img/statue.svg');
 getData(archaicMap, 'data/archaic-statues.geojson', 'img/statue.svg');
@@ -224,7 +224,7 @@ function getData(map, url, iconUrl, highlight) {
                       map.eachLayer(function(layer){
                         if (layer.feature.properties.Name === feature.properties.name && layer.feature.geometry.type === 'Point') {
                           var customIcon = L.icon({
-                              iconUrl: 'img/statue-dark.svg',
+                              iconUrl: 'img/highlight-statue.svg',
                               iconSize: [40, 40], // size of the icon
                               iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
                           });
