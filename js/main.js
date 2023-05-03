@@ -87,48 +87,39 @@ var hellenisticMap = L.map('hellenisticMap', {
   scrollWheelZoom: false,
   zoomControl: true,
   maxBounds: [
-      [50, 50],
+      [70, 50],
       [25, 0]
   ],
 });
 
 var museumMap = L.map('museumMap', {
-  center: [39, 25],
+  center: [45, 15],
   zoom: 5,
   maxZoom: 12,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
-  maxBounds: [
-      [70, 20],
-      [25, 0]
-  ],
+  
 });
 
 var museumStatuesMap = L.map('museumStatuesMap', {
-  center: [39, 25],
+  center: [45, 15],
   zoom: 5,
   maxZoom: 12,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
-  maxBounds: [
-      [70, 20],
-      [25, 0]
-  ],
+
 });
 
 var movementMap = L.map('movementMap', {
-  center: [39, 25],
+  center: [45, 15],
   zoom: 5,
   maxZoom: 12,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
-  maxBounds: [
-    [70, 20],
-    [25, 0]
-  ]
+  
 });
 
 

@@ -4,7 +4,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Musée du Louvre"
+                "Museum name": "Musée du Louvre"
             },
             "geometry": {
                 "type": "Point",
@@ -18,7 +18,9 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "British Museum"
+                "Museum name": "British Museum",
+                "image": "img/museum pics/british-museum.jpg"
+
             },
             "geometry": {
                 "type": "Point",
@@ -32,7 +34,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Archaeological Museum of Olympia"
+                "Museum name": "Archaeological Museum of Olympia"
             },
             "geometry": {
                 "type": "Point",
@@ -47,7 +49,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "National Archaeological Museum of Athens"
+                "Museum name": "National Archaeological Museum of Athens"
             },
             "geometry": {
                 "type": "Point",
@@ -61,7 +63,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Glyptothek"
+                "Museum name": "Glyptothek"
             },
             "geometry": {
                 "type": "Point",
@@ -75,7 +77,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Delphi Archaeological Museum"
+                "Museum name": "Delphi Archaeological Museum"
             },
             "geometry": {
                 "type": "Point",
@@ -89,7 +91,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "National Archaeological Museum of Reggio Calabria"
+                "Museum name": "National Archaeological Museum of Reggio Calabria"
             },
             "geometry": {
                 "type": "Point",
@@ -104,7 +106,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Name": "Acropolis Museum"
+                "Museum name": "Acropolis Museum"
             },
             "geometry": {
                 "type": "Point",
