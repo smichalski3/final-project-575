@@ -210,12 +210,6 @@ function getData(map, url, iconUrl, highlight) {
                       iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
                   });
                   var marker = L.marker(latlng, { icon: customIcon });
-                  marker.on('mouseover', function() {
-                      var popup = L.popup()
-                          .setLatLng(latlng)
-                          .setContent(feature.properties.name) // change this to customize the popup content
-                          .openOn(map);
-                  });
                   return marker;
               },
               style: style,
@@ -231,9 +225,9 @@ function getData(map, url, iconUrl, highlight) {
                             popupContent += "<img id='test' src='" + feature.properties[property] + "'>";
                         }
                     }
-                // bind the popup to the layer, and show it on hover
+                // bind the popup to the layer, and show it on click
                 layer.bindPopup(popupContent, { closeButton: false, offset: L.point(0, -10) });
-                layer.on('mouseover', function(e) {
+                layer.on('click', function(e) {
                     this.openPopup();
                     if (highlight) {
                       map.eachLayer(function(layer){
@@ -248,26 +242,12 @@ function getData(map, url, iconUrl, highlight) {
                       });
                     }
                 });
-                layer.on('mouseout', function(e) {
-                    this.closePopup();
-                    if (highlight) {
-                      map.eachLayer(function(layer){
-                        if (layer.feature.properties.Name === feature.properties.name && layer.feature.geometry.type === 'Point') {
-                          var customIcon = L.icon({
-                              iconUrl: 'img/statue.svg',
-                              iconSize: [40, 40], // size of the icon
-                              iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
-                          });
-                          layer.setIcon(customIcon);
-                        }
-                      });
-                    }
-                });
                 };
               }
           }).addTo(map);
       })
 };
+
 
 
 function style(feature) {
