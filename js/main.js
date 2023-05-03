@@ -189,7 +189,6 @@ getData(movementMap, 'data/movement-lines.geojson');
 getData(movementMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg',true);
 
-
 function getData(map, url, iconUrl, highlight) {
   // load the data, then add it to the map
   fetch(url)
@@ -238,39 +237,38 @@ function getData(map, url, iconUrl, highlight) {
                     this.openPopup();
                     if (highlight) {
                       map.eachLayer(function(layer){
-
-                        /*if (layer.feature.properties[attribute]){
-                
-                          //access feature properties
-                           var props = layer.feature.properties;
-                
-                           //update each feature's radius based on new attribute values
-                           var radius = calcPropRadius(props[attribute]);
-                           layer.setRadius(radius);
-                
-                           //add city to popup content string
-                           var popupContent = "<p><b>Museum:</b> " + props.Museum + "</p>";
-                
-                           //add formatted attribute to panel content string
-                           var year = attribute.split("_")[1];
-                           popupContent += "<p><b>Visitation in " + year + ":</b> " + props[attribute] + " million</p>";
-                
-                           //update popup with new content
-                           popup = layer.getPopup();
-                           popup.setContent(popupContent).update();
-                
-                        };*/
-                    });
+                        if (layer.feature.properties.Name === feature.properties.name && layer.feature.geometry.type === 'Point') {
+                          var customIcon = L.icon({
+                              iconUrl: 'img/statue-dark.svg',
+                              iconSize: [40, 40], // size of the icon
+                              iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
+                          });
+                          layer.setIcon(customIcon);
+                        }
+                      });
                     }
                 });
                 layer.on('mouseout', function(e) {
                     this.closePopup();
+                    if (highlight) {
+                      map.eachLayer(function(layer){
+                        if (layer.feature.properties.Name === feature.properties.name && layer.feature.geometry.type === 'Point') {
+                          var customIcon = L.icon({
+                              iconUrl: 'img/statue.svg',
+                              iconSize: [40, 40], // size of the icon
+                              iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
+                          });
+                          layer.setIcon(customIcon);
+                        }
+                      });
+                    }
                 });
                 };
               }
           }).addTo(map);
       })
 };
+
 
 function style(feature) {
   return {
