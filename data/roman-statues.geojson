@@ -8,7 +8,8 @@
                 "Created In": "Permgamon",
                 "Dated to": "200 BCE",
                 "Artist": "Hagesandros, Polydoros, and Athenedoros",
-                "Material": "Bronze"
+                "Material": "Bronze",
+                "image": "img/roman statue pics/laocoon-sons.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -25,7 +26,8 @@
                 "Created In": "Temple of Aphrodite, Knidos",
                 "Dated to": "4th c. BCE",
                 "Artist": "Praxiteles",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image": "img/roman statue pics/aphrodite-knidos.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -43,7 +45,8 @@
                 "Found in": "Baths of Caracalla, Rome",
                 "Dated to": "4th c. BCE",
                 "Artist": "Lysipposs",
-                "Material": "Bronze"
+                "Material": "Bronze",
+                "image": "img/roman statue pics/farnese-hercules.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -60,7 +63,8 @@
                 "Found in": "Ostia",
                 "Dated to": "4th c. BCE",
                 "Artist": "Unknown",
-                "Material": "Unknown"
+                "Material": "Unknown",
+                "image": "img/roman statue pics/townley-venus.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -77,7 +81,8 @@
                 "Found in": "Rome",
                 "Dated to": "4th c. BCE",
                 "Artist": "Timotheos",
-                "Material": "Unknown"
+                "Material": "Unknown",
+                "image": "img/roman statue pics/leda-and-swan.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -94,7 +99,8 @@
                 "Found in": "Hadrian's Villa",
                 "Dated to": "450 BCE",
                 "Artist": "Myron",
-                "Material": "Bronze"
+                "Material": "Bronze",
+                "image": "img/roman statue pics/discobolus.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -111,7 +117,8 @@
                 "Found in": "Rome",
                 "Dated to": "3rd c. BCE",
                 "Artist": "Unknown",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image": "img/roman statue pics/three-graces.jpg"
 
             },
             "geometry": {
@@ -130,7 +137,8 @@
                 "Found in": "The Lyceum",
                 "Dated to": "370-360 BCE",
                 "Artist": "Praxiteles",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image": "img/roman statue pics/apollo-lykeios.jpg"
 
             },
             "geometry": {
