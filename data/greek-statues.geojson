@@ -9,8 +9,8 @@
                 "Dated to": "130-100 BCE",
                 "Artist": "Alexandros of Anitoch",
                 "Material": "Marble",
-                "image": "img/greek statue pics/venusdemilo.jpeg",
-                "Museum name": "Musée du Louvre"
+                "Museum name": "Musée du Louvre",
+                "image": "img/greek statue pics/venusdemilo.jpeg"
             },
             "geometry": {
                 "type": "Point",
@@ -28,8 +28,8 @@
                 "Dated to": "2nd c. BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image": "img/greek statue pics/winged-victory.jpg",
-                "Museum name": "Musée du Louvre"
+                "Museum name": "Musée du Louvre",
+                "image": "img/greek statue pics/winged-victory.jpg"
             },
             "geometry": {
                 "type": "Point",
@@ -47,8 +47,9 @@
                 "Dated to": "480-470 BCE",
                 "Artist": "Unknown",
                 "Material": "Terracotta",
-                "image": "img/greek statue pics/zeus-and-ganymede.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/zeus-and-ganymede.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -66,8 +67,9 @@
                 "Dated to": "460 BCE",
                 "Artist": "Kalamis",
                 "Material": "Bronze",
-                "image": "img/greek statue pics/artemision-bronze.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/artemision-bronze.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -85,8 +87,9 @@
                 "Dated to": "5th c. BCE",
                 "Artist": "Pheidias",
                 "Material": "Marble",
-                "image": "img/greek statue pics/parthenon-marbles.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/parthenon-marbles.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -104,8 +107,9 @@
                 "Dated to": "4th c. BCE",
                 "Artist": "Praxiteles",
                 "Material": "Marble",
-                "image": "img/greek statue pics/hermes-infant.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/hermes-infant.jpg"
+            
             },
             "geometry": {
                 "type": "Point",
@@ -123,8 +127,9 @@
                 "Dated to": "181-159 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image": "img/greek statue pics/altar-pergamon.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/altar-pergamon.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -142,8 +147,9 @@
                 "Dated to": "640-630 BCE",
                 "Artist": "Unknown",
                 "Material": "Limestone",
-                "image": "img/greek statue pics/lady-auxerre.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/lady-auxerre.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -161,8 +167,9 @@
                 "Dated to": "480 BCE",
                 "Artist": "Kritios",
                 "Material": "Marble",
-                "image": "img/greek statue pics/kritios-boy.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/kritios-boy.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -180,8 +187,9 @@
                 "Dated to": "480 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image": "img/greek statue pics/dying-warrior-statue.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/dying-warrior-statue.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -199,8 +207,9 @@
                 "Dated to": "474 BCE",
                 "Artist": "Unknown",
                 "Material": "Bronze",
-                "image": "img/greek statue pics/charioteer.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/charioteer.jpg"
+              
             },
             "geometry": {
                 "type": "Point",
@@ -218,8 +227,9 @@
                 "Dated to": "460-450 BCE",
                 "Artist": "Pheidias",
                 "Material": "Bronze",
-                "image": "img/greek statue pics/riace-bronzes.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/riace-bronzes.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -237,8 +247,9 @@
                 "Dated to": "447-438 BCE",
                 "Artist": "Pheidias",
                 "Material": "Marble",
-                "image": "img/greek statue pics/marble-metope.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/marble-metope.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -256,8 +267,9 @@
                 "Dated to": "560 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image": "img/greek statue pics/kouros.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/kouros.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -275,8 +287,9 @@
                 "Dated to": "5th c. BCE",
                 "Artist": "Menodotos of Tyre and Xenophon of Rhodes",
                 "Material": "Bronze",
-                "image": "img/greek statue pics/kouros-piombino.jpg",
-                "Museum name": ""
+                "Museum name": "Musée du Louvre",
+                "image": "img/greek statue pics/kouros-piombino.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -294,8 +307,9 @@
                 "Dated to": "6th c. BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image": "img/greek statue pics/kouros-of-paros.jpg",
-                "Museum name": ""
+                "Museum name": "Musée du Louvre",
+                "image": "img/greek statue pics/kouros-of-paros.jpg"
+               
             },
             "geometry": {
                 "type": "Point",
@@ -313,8 +327,9 @@
                 "Dated to": "460 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image": "img/greek statue pics/mourning-athena.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/mourning-athena.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -332,8 +347,9 @@
                 "Dated to": "420 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "image": "img/greek statue pics/nike-sandal.jpg",
-                "Museum name": ""
+                "Museum name": "",
+                "image": "img/greek statue pics/nike-sandal.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
@@ -351,8 +367,9 @@
                 "Dated to": "100 BCE",
                 "Artist": "Agasias",
                 "Material": "Marble",
-                "image": "img/greek statue pics/borghese-gladiator.jpg",
-                "Museum name": ""
+                "Museum name": "Musée du Louvre",
+                "image": "img/greek statue pics/borghese-gladiator.jpg"
+                
             },
             "geometry": {
                 "type": "Point",
