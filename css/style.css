@@ -191,10 +191,17 @@
     margin-top: 100px;
 }
 
+
 .header {
     font-size: 30px;
     font-family: aquiline;
     color: white;
+}
+
+.foreground-item {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 53, 56);
+    
 }
 
 .background-transparent {
