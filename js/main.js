@@ -165,17 +165,27 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 }).addTo(movementMap);
 
 // Call getData function for each map
-getData(statueMap, 'data/greek-statues.geojson', 'img/statue.svg');
+getData(statueMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
+getData(statueMap, 'data/classical-statues.geojson', 'img/statue.svg');
+getData(statueMap, 'data/hellenistic-statues.geojson', 'img/hellenistic-statue.svg');
+
 getData(romanMap, 'data/roman-statues.geojson', 'img/green-statue.svg');
-getData(romanMap, 'data/greek-statues.geojson', 'img/statue.svg');
-getData(venusMap, 'data/venus.geojson', 'img/statue.svg');
-getData(archaicMap, 'data/archaic-statues.geojson', 'img/statue.svg');
+getData(romanMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
+getData(romanMap, 'data/classical-statues.geojson', 'img/statue.svg');
+getData(romanMap, 'data/hellenistic-statues.geojson', 'img/hellenistic-statue.svg');
+
+getData(venusMap, 'data/venus.geojson', 'img/hellenistic-statue.svg');
+
+getData(archaicMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
 getData(classicalMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(athensMap, 'data/athens-classical.geojson', 'img/statue.svg');
-getData(hellenisticMap, 'data/hellenistic-statues.geojson', 'img/statue.svg');
+getData(hellenisticMap, 'data/hellenistic-statues.geojson', 'img/hellenistic-statue.svg');
+
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
+
 getData(museumStatuesMap, 'data/museums.geojson', 'img/greek-column.svg');
 getData(museumStatuesMap, 'data/greek-statues.geojson', 'img/statue.svg');
+
 getData(movementMap, 'data/movement-lines.geojson');
 getData(movementMap, 'data/greek-statues.geojson', 'img/statue.svg');
 getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg',true);
@@ -225,10 +235,10 @@ function getData(map, url, iconUrl, highlight) {
                       map.eachLayer(function(layer){
                         if (layer.feature) {
                           if (layer.feature.properties.Artist && layer.feature.geometry.type == "Point"){
-                            var statueMuseum = layer.feature.properties["Museum name"]//change ARTIST TO MUSEUM
+                            var statueMuseum = layer.feature.properties["Current Museum"]//change ARTIST TO MUSEUM
                             if (museum == statueMuseum){
                               var customIcon = L.icon({
-                                iconUrl: 'img/highlight-statue.svg',
+                                iconUrl: 'img/greek-statue-stroke.svg',
                                 iconSize: [40, 40], // size of the icon
                                 iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
                               });

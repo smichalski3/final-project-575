@@ -9,7 +9,7 @@
                 "Dated to": "130-100 BCE",
                 "Artist": "Alexandros of Anitoch",
                 "Material": "Marble",
-                "Museum name": "Musée du Louvre",
+                "Current Museum": "Musée du Louvre",
                 "image": "img/greek statue pics/venusdemilo.jpeg"
             },
             "geometry": {
@@ -28,7 +28,7 @@
                 "Dated to": "2nd c. BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "Museum name": "Musée du Louvre",
+                "Current Museum": "Musée du Louvre",
                 "image": "img/greek statue pics/winged-victory.jpg"
             },
             "geometry": {
@@ -47,7 +47,7 @@
                 "Dated to": "480-470 BCE",
                 "Artist": "Unknown",
                 "Material": "Terracotta",
-                "Museum name": "Archaeological Museum of Olympia",
+                "Current Museum": "Archaeological Museum of Olympia",
                 "image": "img/greek statue pics/zeus-and-ganymede.jpg"
                 
             },
@@ -67,7 +67,7 @@
                 "Dated to": "460 BCE",
                 "Artist": "Kalamis",
                 "Material": "Bronze",
-                "Museum name": "National Archaeological Museum of Athens",
+                "Current Museum": "National Archaeological Museum of Athens",
                 "image": "img/greek statue pics/artemision-bronze.jpg"
                 
             },
@@ -87,7 +87,7 @@
                 "Dated to": "5th c. BCE",
                 "Artist": "Pheidias",
                 "Material": "Marble",
-                "Museum name": "British Museum",
+                "Current Museum": "British Museum",
                 "image": "img/greek statue pics/parthenon-marbles.jpg"
                 
             },
@@ -107,7 +107,7 @@
                 "Dated to": "4th c. BCE",
                 "Artist": "Praxiteles",
                 "Material": "Marble",
-                "Museum name": "Archaeological Museum of Olympia",
+                "Current Museum": "Archaeological Museum of Olympia",
                 "image": "img/greek statue pics/hermes-infant.jpg"
             
             },
@@ -127,7 +127,7 @@
                 "Dated to": "181-159 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "Museum name": "British Museum",
+                "Current Museum": "British Museum",
                 "image": "img/greek statue pics/altar-pergamon.jpg"
                 
             },
@@ -147,7 +147,7 @@
                 "Dated to": "640-630 BCE",
                 "Artist": "Unknown",
                 "Material": "Limestone",
-                "Museum name": "Musée du Louvre",
+                "Current Museum": "Musée du Louvre",
                 "image": "img/greek statue pics/lady-auxerre.jpg"
                 
             },
@@ -167,7 +167,7 @@
                 "Dated to": "480 BCE",
                 "Artist": "Kritios",
                 "Material": "Marble",
-                "Museum name": "Acropolis Museum",
+                "Current Museum": "Acropolis Museum",
                 "image": "img/greek statue pics/kritios-boy.jpg"
                 
             },
@@ -187,7 +187,7 @@
                 "Dated to": "480 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "Museum name": "Glyptothek",
+                "Current Museum": "Glyptothek",
                 "image": "img/greek statue pics/dying-warrior-statue.jpg"
                 
             },
@@ -207,7 +207,7 @@
                 "Dated to": "474 BCE",
                 "Artist": "Unknown",
                 "Material": "Bronze",
-                "Museum name": "Delphi Archaeological Museum",
+                "Current Museum": "Delphi Archaeological Museum",
                 "image": "img/greek statue pics/charioteer.jpg"
               
             },
@@ -227,7 +227,7 @@
                 "Dated to": "460-450 BCE",
                 "Artist": "Pheidias",
                 "Material": "Bronze",
-                "Museum name": "National Archaeological Museum of Reggio Calabria",
+                "Current Museum": "National Archaeological Museum of Reggio Calabria",
                 "image": "img/greek statue pics/riace-bronzes.jpg"
                 
             },
@@ -247,7 +247,7 @@
                 "Dated to": "447-438 BCE",
                 "Artist": "Pheidias",
                 "Material": "Marble",
-                "Museum name": "Acropolis Museum",
+                "Current Museum": "Acropolis Museum",
                 "image": "img/greek statue pics/marble-metope.jpg"
                 
             },
@@ -267,7 +267,7 @@
                 "Dated to": "560 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "Museum name": "National Archaeological Museum of Athens",
+                "Current Museum": "National Archaeological Museum of Athens",
                 "image": "img/greek statue pics/kouros.jpg"
                 
             },
@@ -287,7 +287,7 @@
                 "Dated to": "5th c. BCE",
                 "Artist": "Menodotos of Tyre and Xenophon of Rhodes",
                 "Material": "Bronze",
-                "Museum name": "Musée du Louvre",
+                "Current Museum": "Musée du Louvre",
                 "image": "img/greek statue pics/kouros-piombino.jpg"
                 
             },
@@ -307,7 +307,7 @@
                 "Dated to": "6th c. BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "Museum name": "Musée du Louvre",
+                "Current Museum": "Musée du Louvre",
                 "image": "img/greek statue pics/kouros-of-paros.jpg"
                
             },
@@ -327,7 +327,7 @@
                 "Dated to": "460 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "Museum name": "Acropolis Museum",
+                "Current Museum": "Acropolis Museum",
                 "image": "img/greek statue pics/mourning-athena.jpg"
                 
             },
@@ -347,7 +347,7 @@
                 "Dated to": "420 BCE",
                 "Artist": "Unknown",
                 "Material": "Marble",
-                "Museum name": "Acropolis Museum",
+                "Current Museum": "Acropolis Museum",
                 "image": "img/greek statue pics/nike-sandal.jpg"
                 
             },
@@ -367,7 +367,7 @@
                 "Dated to": "100 BCE",
                 "Artist": "Agasias",
                 "Material": "Marble",
-                "Museum name": "Musée du Louvre",
+                "Current Museum": "Musée du Louvre",
                 "image": "img/greek statue pics/borghese-gladiator.jpg"
                 
             },
