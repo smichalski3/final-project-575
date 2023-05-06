@@ -1,4 +1,17 @@
 // Initialize the maps
+var blankMap = L.map('blankMap', {
+  center: [39, 30],
+  zoom: 6,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  maxBounds: [
+      [50, 50],
+      [25, 0]
+  ],
+});
+
 var statueMap = L.map('statueMap', {
   center: [39, 21],
   zoom: 6,
@@ -79,6 +92,19 @@ var athensMap = L.map('athensMap', {
   ],
 });
 
+var transitionMap = L.map('transitionMap', {
+  center: [39, 30],
+  zoom: 6,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  maxBounds: [
+      [50, 50],
+      [25, 0]
+  ],
+});
+
 var hellenisticMap = L.map('hellenisticMap', {
   center: [39, 30],
   zoom: 6,
@@ -126,6 +152,10 @@ var movementMap = L.map('movementMap', {
 // Add base tilelayer to the maps
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
+}).addTo(blankMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 18,
 }).addTo(statueMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
@@ -150,6 +180,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
+}).addTo(transitionMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 18,
 }).addTo(hellenisticMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
@@ -169,7 +203,7 @@ getData(statueMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
 getData(statueMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(statueMap, 'data/hellenistic-statues.geojson', 'img/hellenistic-statue.svg');
 
-getData(romanMap, 'data/roman-statues.geojson', 'img/green-statue.svg');
+getData(romanMap, 'data/roman-statues.geojson', 'img/roman-statue.svg');
 getData(romanMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
 getData(romanMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(romanMap, 'data/hellenistic-statues.geojson', 'img/hellenistic-statue.svg');
@@ -177,8 +211,16 @@ getData(romanMap, 'data/hellenistic-statues.geojson', 'img/hellenistic-statue.sv
 getData(venusMap, 'data/venus.geojson', 'img/hellenistic-statue.svg');
 
 getData(archaicMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
+
+getData(classicalMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
 getData(classicalMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(athensMap, 'data/athens-classical.geojson', 'img/statue.svg');
+
+getData(transitionMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
+getData(transitionMap, 'data/classical-statues.geojson', 'img/statue.svg');
+
+getData(hellenisticMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
+getData(hellenisticMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(hellenisticMap, 'data/hellenistic-statues.geojson', 'img/hellenistic-statue.svg');
 
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');

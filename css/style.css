@@ -105,6 +105,21 @@
     opacity: 0.9
 }
 
+/* pop-up content style for transitionMap */
+#transitionMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#transitionMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
 /* pop-up content style for hellenisticMap */
 #hellenisticMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
@@ -174,7 +189,6 @@
 
 
 
-
 /* TEXT STYLING */
 
 .title {
@@ -219,7 +233,11 @@
 
 
 /* creating map containers on screen*/
-
+#blankMap { 
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
 #statueMap { 
     height: 100vh; 
     width: 100%; 
@@ -251,6 +269,12 @@
 }
 
 #athensMap { 
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
+#transitionMap { 
     height: 100vh; 
     width: 100%; 
     display: inline-block; 
