@@ -364,7 +364,7 @@ function getData(map, url, iconUrl, highlight) {
                       map.eachLayer(function(layer){
                         if (layer.feature) {
                           if (layer.feature.properties.Artist && layer.feature.geometry.type == "Point"){
-                            var statueMuseum = layer.feature.properties["Current Museum"]//change ARTIST TO MUSEUM
+                            var statueMuseum = layer.feature.properties["Current Museum"]
                             if (museum == statueMuseum){
                               var customIcon = L.icon({
                                 iconUrl: 'img/greek-statue-stroke.svg',
