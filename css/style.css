@@ -223,8 +223,12 @@
     opacity: 80%;
 }
 
-.melos {
-    width: 80%;
+.milos {
+    width: 99%;
+}
+
+.milos-caption {
+    font-size: 10px;
 }
 
 /*.row {

@@ -40,7 +40,7 @@ var romanMap = L.map('romanMap', {
 });
 
 var venusMap = L.map('venusMap', {
-  center: [36.65, 24.3],
+  center: [36.65, 24.05],
   zoom: 10,
   maxZoom: 18,
   minZoom: 4,
@@ -79,6 +79,7 @@ var classicalMap = L.map('classicalMap', {
   ],
 });
 
+// CONSTRAIN ZOOM 
 var athensMap = L.map('athensMap', {
   center: [38, 23.8],
   zoom: 12,
@@ -215,6 +216,7 @@ getData(archaicMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
 getData(classicalMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
 getData(classicalMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(athensMap, 'data/athens-classical.geojson', 'img/statue.svg');
+getData(athensMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
 
 getData(transitionMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
 getData(transitionMap, 'data/classical-statues.geojson', 'img/statue.svg');

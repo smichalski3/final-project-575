@@ -98,6 +98,26 @@
                     37.9715
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Sacred Gate Dipylon Kouros",
+                "Created in": "Kerameikos",
+                "Dated to": "560 BCE",
+                "Artist": "Unknown",
+                "Material": "Marble",
+                "Current Museum": "National Archaeological Museum of Athens",
+                "image": "img/greek statue pics/kouros.jpg"
+                
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7173,
+                    37.978
+                ]
+            }
         }
     ]
 }
