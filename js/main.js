@@ -12,6 +12,16 @@ var blankMap = L.map('blankMap', {
   ],
 });
 
+var blankMap2 = L.map('blankMap2', {
+  center: [45, 15],
+  zoom: 5,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  
+});
+
 var statueMap = L.map('statueMap', {
   center: [39, 21],
   zoom: 6,
@@ -119,6 +129,49 @@ var hellenisticMap = L.map('hellenisticMap', {
   ],
 });
 
+var venusMuseumMap = L.map('venusMuseumMap', {
+  center: [45, 15],
+  zoom: 5,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  
+});
+
+var venusMovementMap = L.map('venusMovementMap', {
+  center: [45, 15],
+  zoom: 5,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  
+});
+
+var onlyGreekMap = L.map('onlyGreekMap', {
+  center: [45, 15],
+  zoom: 5,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  
+});
+
+var onlyGreekZoomMap = L.map('onlyGreekZoomMap', {
+  center: [39, 30],
+  zoom: 6,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  maxBounds: [
+      [50, 50],
+      [25, 0]
+  ],
+});
+
 var museumMap = L.map('museumMap', {
   center: [45, 15],
   zoom: 5,
@@ -157,6 +210,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 18,
+}).addTo(blankMap2);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 18,
 }).addTo(statueMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
@@ -184,8 +241,24 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 }).addTo(transitionMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
-  maxZoom: 18,
+  maxZoom: 20,
 }).addTo(hellenisticMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 20,
+}).addTo(venusMuseumMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 20,
+}).addTo(venusMovementMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 20,
+}).addTo(onlyGreekMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 20,
+}).addTo(onlyGreekZoomMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 20,
@@ -225,9 +298,21 @@ getData(hellenisticMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg'
 getData(hellenisticMap, 'data/classical-statues.geojson', 'img/statue.svg');
 getData(hellenisticMap, 'data/hellenistic-statues.geojson', 'img/hellenistic-statue.svg');
 
+getData(venusMuseumMap, 'data/louvre.geojson', 'img/greek-column.svg');
+
+getData(venusMovementMap, 'data/louvre.geojson', 'img/greek-column.svg');
+getData(venusMovementMap, 'data/venus.geojson', 'img/statue.svg');
+getData(venusMovementMap, 'data/venus-movement-lines.geojson');
+
+getData(onlyGreekMap, 'data/only-greek-museums.geojson', 'img/greek-column.svg',true);
+getData(onlyGreekMap, 'data/only-greek-statues.geojson', 'img/statue.svg');
+
+getData(onlyGreekZoomMap, 'data/only-greek-museums.geojson', 'img/greek-column.svg',true);
+getData(onlyGreekZoomMap, 'data/only-greek-statues.geojson', 'img/statue.svg');
+
 getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
 
-getData(museumStatuesMap, 'data/museums.geojson', 'img/greek-column.svg');
+getData(museumStatuesMap, 'data/museums.geojson', 'img/greek-column.svg',true);
 getData(museumStatuesMap, 'data/greek-statues.geojson', 'img/statue.svg');
 
 getData(movementMap, 'data/movement-lines.geojson');

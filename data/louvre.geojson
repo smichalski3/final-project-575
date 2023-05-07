@@ -1,0 +1,20 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum name": "Musée du Louvre",
+                "image": "img/museum pics/louvre.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3376,
+                    48.8606
+                ]
+            }
+        }
+
+    ]
+}

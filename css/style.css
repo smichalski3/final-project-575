@@ -136,6 +136,67 @@
 }
 
 /* pop-up content style for museumMap */
+#venusMuseumMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#venusMuseumMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for museumMap */
+#venusMovementMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#venusMovementMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for museumMap */
+#onlyGreekMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#onlyGreekMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for museumMap */
+#onlyGreekZoomMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#onlyGreekZoomMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+
+/* pop-up content style for museumMap */
 #museumMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
     font-family: garamond-tall;
@@ -159,7 +220,7 @@
     font-size: 15px;
     text-align: center;
 }
-#museumStatues .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+#museumStatuesMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -229,6 +290,13 @@
 
 .milos-caption {
     font-size: 10px;
+    padding-top: 10px;
+}
+
+.milos-header {
+    padding-bottom: 10px;
+    padding-left: 50px;
+
 }
 
 /*.row {
@@ -242,6 +310,13 @@
     width: 100%; 
     display: inline-block; 
 }
+
+#blankMap2 { 
+    height: 100vh; 
+    width: 100%; 
+    display: inline-block; 
+}
+
 #statueMap { 
     height: 100vh; 
     width: 100%; 
@@ -287,6 +362,30 @@
 #hellenisticMap { 
     height: 100vh; 
     width: 100%; 
+    display: inline-block; 
+}
+
+#venusMuseumMap {
+    height: 100vh; 
+    width: 100vw; 
+    display: inline-block; 
+}
+
+#venusMovementMap {
+    height: 100vh; 
+    width: 100vw; 
+    display: inline-block; 
+}
+
+#onlyGreekMap {
+    height: 100vh; 
+    width: 100vw; 
+    display: inline-block; 
+}
+
+#onlyGreekZoomMap {
+    height: 100vh; 
+    width: 100vw; 
     display: inline-block; 
 }
 

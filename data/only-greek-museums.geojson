@@ -1,0 +1,54 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum name": "Archaeological Museum of Olympia",
+                "image":"img/museum pics/olympia-museum.jpg"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.6243,
+                    37.6394
+                ]
+            }
+        },
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum name": "National Archaeological Museum of Athens",
+                "image":"img/museum pics/athens.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7328,
+                    37.989
+                ]
+            }
+        },
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum name": "Acropolis Museum",
+                "image":"img/museum pics/acropolis.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7285,
+                    37.9684
+                ]
+            }
+        }
+    ]
+}
