@@ -196,8 +196,8 @@
 }
 
 
-/* pop-up content style for museumMap */
-#museumMap .leaflet-popup-content p { 
+/* pop-up content style for britishMuseumMap */
+#britishMuseumMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
     font-family: garamond-tall;
     font-weight: bold;
@@ -205,7 +205,22 @@
     font-size: 15px;
     text-align: center;
 }
-#museumMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#britishMuseumMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for marblesMap */
+#marblesMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#marblesMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -391,7 +406,13 @@
     display: inline-block; 
 }
 
-#museumMap {
+#britishMuseumMap {
+    height: 100vh; 
+    width: 100vw; 
+    display: inline-block; 
+}
+
+#marblesMap {
     height: 100vh; 
     width: 100vw; 
     display: inline-block; 

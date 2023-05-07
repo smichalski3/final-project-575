@@ -172,7 +172,17 @@ var onlyGreekZoomMap = L.map('onlyGreekZoomMap', {
   ],
 });
 
-var museumMap = L.map('museumMap', {
+var britishMuseumMap = L.map('britishMuseumMap', {
+  center: [45, 15],
+  zoom: 5,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  
+});
+
+var marblesMap = L.map('marblesMap', {
   center: [45, 15],
   zoom: 5,
   maxZoom: 12,
@@ -262,7 +272,11 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 20,
-}).addTo(museumMap);
+}).addTo(britishMuseumMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 20,
+}).addTo(marblesMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 20,
@@ -310,7 +324,11 @@ getData(onlyGreekMap, 'data/only-greek-statues.geojson', 'img/statue.svg');
 getData(onlyGreekZoomMap, 'data/only-greek-museums.geojson', 'img/greek-column.svg',true);
 getData(onlyGreekZoomMap, 'data/only-greek-statues.geojson', 'img/statue.svg');
 
-getData(museumMap, 'data/museums.geojson', 'img/greek-column.svg');
+getData(britishMuseumMap, 'data/british-museum.geojson', 'img/greek-column.svg');
+getData(britishMuseumMap, 'data/parthenon-movement-lines.geojson');
+getData(britishMuseumMap, 'data/parthenon-marbles.geojson', 'img/statue.svg');
+
+getData(marblesMap, 'data/parthenon-marbles.geojson', 'img/statue.svg');
 
 getData(museumStatuesMap, 'data/museums.geojson', 'img/greek-column.svg',true);
 getData(museumStatuesMap, 'data/greek-statues.geojson', 'img/statue.svg');

@@ -1,0 +1,25 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "The Parthenon Marbles",
+                "Created in": "Athens",
+                "Dated to": "5th c. BCE",
+                "Artist": "Pheidias",
+                "Material": "Marble",
+                "Current Museum": "British Museum",
+                "image": "img/greek statue pics/parthenon-marbles.jpg"
+                
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.72,
+                    37.9838
+                ]
+            }
+        }
+    ]
+}

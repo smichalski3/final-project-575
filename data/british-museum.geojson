@@ -1,0 +1,21 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum name": "British Museum",
+                "image": "img/museum pics/british-museum.jpg"
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.127,
+                    51.5194
+                ]
+            }
+        }
+
+    ]
+}
