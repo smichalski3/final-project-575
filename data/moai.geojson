@@ -1,0 +1,25 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Moai Statue",
+                "Created in": "Rapa Nui",
+                "Dated to": "1400-1600",
+                "Material": "Volcanic tuff",
+                "Current Museum": "British Museum",
+                "image": "img/greek statue pics/borghese-gladiator.jpg"
+                
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.287321,
+                    -27.128095
+                ]
+            }
+        }
+
+    ]
+}

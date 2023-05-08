@@ -226,6 +226,21 @@
     opacity: 0.9
 }
 
+/* pop-up content style for acropolisMap */
+#acropolisMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#acropolisMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
 /* pop-up content style for museumStatuesMap */
 #museumStatuesMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
@@ -241,8 +256,8 @@
     opacity: 0.9
 }
 
-/* pop-up content style for movementMap */
-#movementMap .leaflet-popup-content p { 
+/* pop-up content style for acropolisMap */
+#rosettaMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
     font-family: garamond-tall;
     font-weight: bold;
@@ -250,12 +265,45 @@
     font-size: 15px;
     text-align: center;
 }
-#movementMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+#rosettaMap .leaflet-popup-content-wrapper, #rosettaMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
 }
 
+/* pop-up content style for moaiMap */
+#moaiMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#moaiMap .leaflet-popup-content-wrapper, #moaiMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for finalMap */
+#finalMap .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#finalMap .leaflet-popup-content-wrapper, #finalMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+
+
+/* img centering for popups*/
 #test {
     display:block;
     margin:auto;
@@ -418,15 +466,33 @@
     display: inline-block; 
 }
 
+#acropolisMap {
+    height: 100vh; 
+    width: 100vw; 
+    display: inline-block; 
+}
+
 #museumStatuesMap {
     height: 100vh; 
     width: 100vw; 
     display: inline-block; 
 }
 
-#movementMap {
+#rosettaMap {
     height: 100vh; 
-    width: 100%; 
+    width: 100vw; 
+    display: inline-block; 
+}
+
+#moaiMap {
+    height: 100vh; 
+    width: 100vw; 
+    display: inline-block; 
+}
+
+#finalMap {
+    height: 100vh; 
+    width: 100vw; 
     display: inline-block; 
 }
 

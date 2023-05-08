@@ -1,0 +1,24 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Statue Name": "Rosetta Stone",
+                "Created in": "Memphis",
+                "Dated to": "196 BCE",
+                "Material": "Granodiorite",
+                "Current Museum": "British Museum",
+                "image": "img/greek statue pics/borghese-gladiator.jpg"
+                
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.457409,
+                    31.392224
+                ]
+            }
+        }
+    ]
+}

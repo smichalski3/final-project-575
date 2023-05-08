@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum name": "Acropolis Museum",
+                "image":"img/museum pics/acropolis.jpg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7285,
+                    37.9684
+                ]
+            }
+        }
+    ]
+}

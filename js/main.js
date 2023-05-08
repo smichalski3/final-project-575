@@ -192,6 +192,16 @@ var marblesMap = L.map('marblesMap', {
   
 });
 
+var acropolisMap = L.map('acropolisMap', {
+  center: [45, 15],
+  zoom: 5,
+  maxZoom: 12,
+  minZoom: 4,
+  scrollWheelZoom: false,
+  zoomControl: true,
+  
+});
+
 var museumStatuesMap = L.map('museumStatuesMap', {
   center: [45, 15],
   zoom: 5,
@@ -202,14 +212,34 @@ var museumStatuesMap = L.map('museumStatuesMap', {
 
 });
 
-var movementMap = L.map('movementMap', {
+var rosettaMap = L.map('rosettaMap', {
   center: [45, 15],
-  zoom: 5,
-  maxZoom: 12,
-  minZoom: 4,
+  zoom: 2,
+  maxZoom: 18,
+  minZoom: 2,
   scrollWheelZoom: false,
   zoomControl: true,
-  
+
+});
+
+var moaiMap = L.map('moaiMap', {
+  center: [45, 15],
+  zoom: 2,
+  maxZoom: 18,
+  minZoom: 2,
+  scrollWheelZoom: false,
+  zoomControl: true,
+
+});
+
+var finalMap = L.map('finalMap', {
+  center: [45, 15],
+  zoom: 2,
+  maxZoom: 18,
+  minZoom: 2,
+  scrollWheelZoom: false,
+  zoomControl: true,
+
 });
 
 
@@ -280,11 +310,24 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 20,
+}).addTo(acropolisMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 20,
 }).addTo(museumStatuesMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
   maxZoom: 20,
-}).addTo(movementMap);
+}).addTo(rosettaMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 20,
+}).addTo(moaiMap);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
+  maxZoom: 20,
+}).addTo(finalMap);
+
 
 // Call getData function for each map
 getData(statueMap, 'data/archaic-statues.geojson', 'img/archaic-statue.svg');
@@ -330,12 +373,24 @@ getData(britishMuseumMap, 'data/parthenon-marbles.geojson', 'img/statue.svg');
 
 getData(marblesMap, 'data/parthenon-marbles.geojson', 'img/statue.svg');
 
+getData(acropolisMap, 'data/acropolis-museum.geojson', 'img/greek-column.svg');
+
 getData(museumStatuesMap, 'data/museums.geojson', 'img/greek-column.svg',true);
 getData(museumStatuesMap, 'data/greek-statues.geojson', 'img/statue.svg');
 
-getData(movementMap, 'data/movement-lines.geojson');
-getData(movementMap, 'data/greek-statues.geojson', 'img/statue.svg');
-getData(movementMap, 'data/museums.geojson', 'img/greek-column.svg',true);
+getData(rosettaMap, 'data/rosetta-stone.geojson', 'img/rosetta.svg');
+getData(rosettaMap, 'data/british-museum.geojson', 'img/greek-column.svg');
+
+getData(moaiMap, 'data/moai.geojson', 'img/moai.svg');
+getData(moaiMap, 'data/rosetta-stone.geojson', 'img/rosetta.svg');
+getData(moaiMap, 'data/british-museum.geojson', 'img/greek-column.svg');
+
+getData(finalMap, 'data/british-museum.geojson', 'img/greek-column.svg');
+getData(finalMap, 'data/rosetta-stone.geojson', 'img/rosetta.svg');
+getData(finalMap, 'data/moai.geojson', 'img/moai.svg');
+getData(finalMap, 'data/parthenon-marbles.geojson', 'img/statue.svg');
+
+
 
 function getData(map, url, iconUrl, highlight) {
   // load the data, then add it to the map
