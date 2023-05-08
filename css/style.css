@@ -39,7 +39,7 @@
     font-size: 15px;
     text-align: center;
 }
-#romanMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#romanMap .leaflet-popup-content-wrapper, #romanMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -54,7 +54,7 @@
     font-size: 15px;
     text-align: center;
 }
-#venusMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#venusMap .leaflet-popup-content-wrapper, #venusMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -69,7 +69,7 @@
     font-size: 15px;
     text-align: center;
 }
-#archaicMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+#archaicMap .leaflet-popup-content-wrapper, #archaicMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -84,7 +84,7 @@
     font-size: 15px;
     text-align: center;
 }
-#classicalMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+#classicalMap .leaflet-popup-content-wrapper, #classicalMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -99,7 +99,7 @@
     font-size: 15px;
     text-align: center;
 }
-#athensMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+#athensMap .leaflet-popup-content-wrapper, #athensMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -114,7 +114,7 @@
     font-size: 15px;
     text-align: center;
 }
-#transitionMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+#transitionMap .leaflet-popup-content-wrapper, #transitionMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -129,7 +129,7 @@
     font-size: 15px;
     text-align: center;
 }
-#hellenisticMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+#hellenisticMap .leaflet-popup-content-wrapper, #hellenisticMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -144,7 +144,7 @@
     font-size: 15px;
     text-align: center;
 }
-#venusMuseumMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#venusMuseumMap .leaflet-popup-content-wrapper, #venusMuseumMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -159,7 +159,7 @@
     font-size: 15px;
     text-align: center;
 }
-#venusMovementMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#venusMovementMap .leaflet-popup-content-wrapper, #venusMovementMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -174,13 +174,13 @@
     font-size: 15px;
     text-align: center;
 }
-#onlyGreekMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#onlyGreekMap .leaflet-popup-content-wrapper, #onlyGreekMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
 }
 
-/* pop-up content style for museumMap */
+/* pop-up content style for onlygreekzoommap */
 #onlyGreekZoomMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
     font-family: garamond-tall;
@@ -189,7 +189,7 @@
     font-size: 15px;
     text-align: center;
 }
-#onlyGreekZoomMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#onlyGreekZoomMap .leaflet-popup-content-wrapper, #onlyGreekZoomMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -205,7 +205,7 @@
     font-size: 15px;
     text-align: center;
 }
-#britishMuseumMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#britishMuseumMap .leaflet-popup-content-wrapper, #britishMuseumMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -220,7 +220,7 @@
     font-size: 15px;
     text-align: center;
 }
-#marblesMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#marblesMap .leaflet-popup-content-wrapper, #marblesMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -235,7 +235,7 @@
     font-size: 15px;
     text-align: center;
 }
-#acropolisMap .leaflet-popup-content-wrapper, #museumMap .leaflet-popup-tip {
+#acropolisMap .leaflet-popup-content-wrapper, #acropolisMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -250,7 +250,22 @@
     font-size: 15px;
     text-align: center;
 }
-#museumStatuesMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
+#museumStatuesMap .leaflet-popup-content-wrapper, #museumStatuesMap .leaflet-popup-tip {
+    background-color: #f6f6f6 !important;
+    border-radius: 6px !important;
+    opacity: 0.9
+}
+
+/* pop-up content style for britishMuseumMap2 */
+#britishMuseumMap2 .leaflet-popup-content p { 
+    margin: 0.8em 0; 
+    font-family: garamond-tall;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#britishMuseumMap2 .leaflet-popup-content-wrapper, #britishMuseumMap2 .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
     opacity: 0.9
@@ -473,6 +488,12 @@
 }
 
 #museumStatuesMap {
+    height: 100vh; 
+    width: 100vw; 
+    display: inline-block; 
+}
+
+#britishMuseumMap2 {
     height: 100vh; 
     width: 100vw; 
     display: inline-block; 
