@@ -331,7 +331,7 @@
 /* TEXT STYLING */
 
 .title {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: aquiline;
 }
 
@@ -341,22 +341,32 @@
 
 .author {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 100px;
+    margin-top: 125px;
+    color:rgb(199, 146, 180);
 }
 
+.slide-caption {
+    font-size: 18px;
+}
+
+.slide-1 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c792b4;
+}
 
 .header {
     font-size: 45px;
     font-family: aquiline;
-    color:white
+    color:white;
 }
 
-.foreground-item {
+
+/*.foreground-item {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(51, 53, 56);
     font-size: 16px;
-    
-}
+}*/
 
 
 .background-transparent {
