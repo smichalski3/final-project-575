@@ -486,6 +486,12 @@
     font-size: 17px;
     padding-top: 10px;
 }
+
+.sources {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(91, 91, 91);  
+}
  
 
 
