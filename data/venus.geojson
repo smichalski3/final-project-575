@@ -8,7 +8,8 @@
                 "Created in": "Melos Island",
                 "Dated to": "130-100 BCE",
                 "Artist": "Alexandros of Anitoch",
-                "Material": "Marble"
+                "Material": "Marble",
+                "image": "img/greek statue pics/venusdemilo.jpeg"
             },
             "geometry": {
                 "type": "Point",
