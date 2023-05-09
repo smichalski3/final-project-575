@@ -373,13 +373,13 @@
 
 .venus-caption {
     font-size: 18px;
-    margin-left: 180px;
+    margin-left: 166px;
     margin-top: 10px;
 }
 
 .venus2-caption {
     font-size: 18px;
-    margin-left: 160px;
+    margin-left: 150px;
     margin-bottom: 10px;
 }
 
@@ -401,6 +401,16 @@
     color: #58a1a0;
 }
 
+.slide-4 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #4b7e7d;
+}
+
+.slide-4-header {
+    font-size: 30px;
+}
+
 .map-1 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -413,11 +423,22 @@
     color: rgb(91, 91, 91);
 }
 
+.map-3 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(91, 91, 91);
+}
+
 .header {
     font-size: 60px;
     font-family: aquiline;
     color:rgb(76, 76, 76);
     margin-bottom: 40px;
+}
+
+.venus-header {
+    color: #58a1a0;
+    font-size: 50px;
 }
 
 
@@ -452,12 +473,12 @@
 }
 
 .img-5 {
-    width: 45%;
+    width: 40%;
     margin-left: 140px;
 }
 
 .img-6 {
-    width: 65%;
+    width: 60%;
     margin-left: 70px;
 }
 
@@ -466,14 +487,12 @@
 }
 
 .milos-caption {
-    font-size: 10px;
+    font-size: 14px;
     padding-top: 10px;
 }
 
 .milos-header {
     padding-bottom: 10px;
-    padding-left: 50px;
-
 }
 
 /*.row {
