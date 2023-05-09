@@ -355,10 +355,17 @@
     color: #c792b4;
 }
 
+.map-1 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(91, 91, 91);
+}
+
 .header {
     font-size: 45px;
     font-family: aquiline;
-    color:white;
+    color:rgb(76, 76, 76);
+    margin-bottom: 40px;
 }
 
 
@@ -372,6 +379,19 @@
 .background-transparent {
     background-color: white;
     opacity: 80%;
+}
+
+.img-1 {
+    margin-left: 80px;
+}
+
+.img-2 {
+    margin-left: 120px;
+}
+
+.img-3 {
+    margin-left: 90px;
+    margin-top: 20px;
 }
 
 .milos {
