@@ -417,6 +417,12 @@
     color: #c9c9c9;
 }
 
+.slide-6 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #adacac;
+}
+
 .map-1 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -475,6 +481,12 @@
     color: #203f47;
     font-size: 50px;
 }
+
+.moai-caption {
+    font-size: 17px;
+    padding-top: 10px;
+}
+ 
 
 
 /*.foreground-item {
