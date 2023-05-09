@@ -18,10 +18,9 @@
 /* pop-up content style for statueMap */
 #statueMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #statueMap .leaflet-popup-content-wrapper, #statueMap .leaflet-popup-tip {
@@ -33,10 +32,9 @@
 /* pop-up content style for romanMap */
 #romanMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #romanMap .leaflet-popup-content-wrapper, #romanMap .leaflet-popup-tip {
@@ -48,10 +46,9 @@
 /* pop-up content style for romanMap */
 #venusMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #venusMap .leaflet-popup-content-wrapper, #venusMap .leaflet-popup-tip {
@@ -63,10 +60,9 @@
 /* pop-up content style for archaicMap */
 #archaicMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #archaicMap .leaflet-popup-content-wrapper, #archaicMap .leaflet-popup-tip {
@@ -78,10 +74,9 @@
 /* pop-up content style for classicalMap */
 #classicalMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #classicalMap .leaflet-popup-content-wrapper, #classicalMap .leaflet-popup-tip {
@@ -93,10 +88,9 @@
 /* pop-up content style for athensMap */
 #athensMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #athensMap .leaflet-popup-content-wrapper, #athensMap .leaflet-popup-tip {
@@ -108,10 +102,9 @@
 /* pop-up content style for transitionMap */
 #transitionMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #transitionMap .leaflet-popup-content-wrapper, #transitionMap .leaflet-popup-tip {
@@ -123,10 +116,9 @@
 /* pop-up content style for hellenisticMap */
 #hellenisticMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #hellenisticMap .leaflet-popup-content-wrapper, #hellenisticMap .leaflet-popup-tip {
@@ -138,10 +130,9 @@
 /* pop-up content style for museumMap */
 #venusMuseumMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #venusMuseumMap .leaflet-popup-content-wrapper, #venusMuseumMap .leaflet-popup-tip {
@@ -153,10 +144,9 @@
 /* pop-up content style for museumMap */
 #venusMovementMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #venusMovementMap .leaflet-popup-content-wrapper, #venusMovementMap .leaflet-popup-tip {
@@ -168,10 +158,9 @@
 /* pop-up content style for museumMap */
 #onlyGreekMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #onlyGreekMap .leaflet-popup-content-wrapper, #onlyGreekMap .leaflet-popup-tip {
@@ -183,10 +172,9 @@
 /* pop-up content style for onlygreekzoommap */
 #onlyGreekZoomMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #onlyGreekZoomMap .leaflet-popup-content-wrapper, #onlyGreekZoomMap .leaflet-popup-tip {
@@ -199,10 +187,9 @@
 /* pop-up content style for britishMuseumMap */
 #britishMuseumMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #britishMuseumMap .leaflet-popup-content-wrapper, #britishMuseumMap .leaflet-popup-tip {
@@ -214,10 +201,9 @@
 /* pop-up content style for marblesMap */
 #marblesMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #marblesMap .leaflet-popup-content-wrapper, #marblesMap .leaflet-popup-tip {
@@ -229,10 +215,9 @@
 /* pop-up content style for acropolisMap */
 #acropolisMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #acropolisMap .leaflet-popup-content-wrapper, #acropolisMap .leaflet-popup-tip {
@@ -244,10 +229,9 @@
 /* pop-up content style for museumStatuesMap */
 #museumStatuesMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #museumStatuesMap .leaflet-popup-content-wrapper, #museumStatuesMap .leaflet-popup-tip {
@@ -259,10 +243,9 @@
 /* pop-up content style for britishMuseumMap2 */
 #britishMuseumMap2 .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #britishMuseumMap2 .leaflet-popup-content-wrapper, #britishMuseumMap2 .leaflet-popup-tip {
@@ -274,10 +257,9 @@
 /* pop-up content style for acropolisMap */
 #rosettaMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #rosettaMap .leaflet-popup-content-wrapper, #rosettaMap .leaflet-popup-tip {
@@ -289,10 +271,9 @@
 /* pop-up content style for moaiMap */
 #moaiMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #moaiMap .leaflet-popup-content-wrapper, #moaiMap .leaflet-popup-tip {
@@ -304,10 +285,9 @@
 /* pop-up content style for finalMap */
 #finalMap .leaflet-popup-content p { 
     margin: 0.8em 0; 
-    font-family: garamond-tall;
-    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 #finalMap .leaflet-popup-content-wrapper, #finalMap .leaflet-popup-tip {
@@ -394,24 +374,32 @@
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #c792b4;
+    background-size: cover;
+
 }
 
 .slide-2 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #976fa3;
+    background-size: cover;
+
 }
 
 .slide-3 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #58a1a0;
+    background-size: cover;
+
 }
 
 .slide-4 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #417170;
+    background-size: cover;
+
 }
 
 .slide-4-header {
@@ -422,18 +410,24 @@
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #89b3b7;
+    background-size: cover;
+
 }
 
 .slide-7 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
+    background-size: cover;
+
 }
 
 .slide-6 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #adacac;
+    background-size: cover;
+
 }
 
 .map-1 {

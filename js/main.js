@@ -375,10 +375,8 @@ getData(venusMovementMap, 'data/louvre.geojson', 'img/greek-column.svg');
 getData(venusMovementMap, 'data/venus.geojson', 'img/statue.svg');
 getData(venusMovementMap, 'data/venus-movement-lines.geojson');
 
-getData(onlyGreekMap, 'data/only-greek-museums.geojson', 'img/greek-column.svg',true);
 getData(onlyGreekMap, 'data/only-greek-statues.geojson', 'img/statue.svg');
 
-getData(onlyGreekZoomMap, 'data/only-greek-museums.geojson', 'img/greek-column.svg',true);
 getData(onlyGreekZoomMap, 'data/only-greek-statues.geojson', 'img/statue.svg');
 
 getData(britishMuseumMap, 'data/british-museum.geojson', 'img/greek-column.svg');
