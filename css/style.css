@@ -404,7 +404,7 @@
 .slide-4 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #4b7e7d;
+    color: #417170;
 }
 
 .slide-4-header {
@@ -424,6 +424,12 @@
 }
 
 .map-3 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(91, 91, 91);
+}
+
+.map-4 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(91, 91, 91);
