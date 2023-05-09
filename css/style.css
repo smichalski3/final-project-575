@@ -411,6 +411,12 @@
     font-size: 30px;
 }
 
+.slide-5 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c9c9c9;
+}
+
 .map-1 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -444,6 +450,11 @@
 
 .venus-header {
     color: #58a1a0;
+    font-size: 50px;
+}
+
+.absence-header {
+    color: #203f47;
     font-size: 50px;
 }
 
