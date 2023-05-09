@@ -371,6 +371,18 @@
     margin-top: 10px;
 }
 
+.venus-caption {
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.venus2-caption {
+    font-size: 18px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+
 .slide-1 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -381,6 +393,12 @@
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #976fa3;
+}
+
+.slide-3 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #58a1a0;
 }
 
 .map-1 {
@@ -431,6 +449,16 @@
 .img-4 {
     width: 50%;
     margin-left: 160px;
+}
+
+.img-5 {
+    width: 45%;
+    margin-left: 140px;
+}
+
+.img-6 {
+    width: 65%;
+    margin-left: 70px;
 }
 
 .milos {
