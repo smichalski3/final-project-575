@@ -370,6 +370,17 @@
     margin-bottom: 10px;
 }
 
+.acropolis-caption {
+    font-size: 18px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.plaster-caption {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
 .slide-1 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -411,15 +422,6 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #89b3b7;
     background-size: cover;
-
-}
-
-.slide-7 {
-    font-size: 24px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #ffffff;
-    background-size: cover;
-
 }
 
 .slide-6 {
@@ -427,7 +429,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #bcbcbc;
     background-size: cover;
+}
 
+.slide-7 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    background-size: cover;
 }
 
 .map-1 {
