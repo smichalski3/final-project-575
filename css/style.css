@@ -412,7 +412,7 @@
 .slide-4 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #417170;
+    color: #224b4b;
     background-size: cover;
 
 }
@@ -503,7 +503,7 @@
 }
 
 .moai-caption {
-    font-size: 17px;
+    font-size: 18px;
     padding-top: 10px;
 }
 
@@ -591,6 +591,11 @@
 .img-6 {
     width: 60%;
     margin-left: 70px;
+}
+
+.img-7 {
+    margin-left: 120px;
+    margin-top: 10px;
 }
 
 .milos {

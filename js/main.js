@@ -213,8 +213,8 @@ var museumStatuesMap = L.map('museumStatuesMap', {
 });
 
 var britishMuseumMap2 = L.map('britishMuseumMap2', {
-  center: [45, 15],
-  zoom: 2,
+  center: [20, -20],
+  zoom: 3,
   maxZoom: 18,
   minZoom: 2,
   scrollWheelZoom: false,
@@ -223,8 +223,8 @@ var britishMuseumMap2 = L.map('britishMuseumMap2', {
 });
 
 var rosettaMap = L.map('rosettaMap', {
-  center: [45, 15],
-  zoom: 2,
+  center: [20, -20],
+  zoom: 3,
   maxZoom: 18,
   minZoom: 2,
   scrollWheelZoom: false,
@@ -233,8 +233,8 @@ var rosettaMap = L.map('rosettaMap', {
 });
 
 var moaiMap = L.map('moaiMap', {
-  center: [45, 15],
-  zoom: 2,
+  center: [20, -20],
+  zoom: 3,
   maxZoom: 18,
   minZoom: 2,
   scrollWheelZoom: false,
@@ -243,8 +243,8 @@ var moaiMap = L.map('moaiMap', {
 });
 
 var finalMap = L.map('finalMap', {
-  center: [45, 15],
-  zoom: 2,
+  center: [20, -20],
+  zoom: 3,
   maxZoom: 18,
   minZoom: 2,
   scrollWheelZoom: false,
