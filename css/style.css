@@ -503,7 +503,7 @@
 }
 
 .moai-caption {
-    font-size: 17px;
+    font-size: 18px;
     padding-top: 10px;
 }
 
@@ -554,6 +554,11 @@
 .img-6 {
     width: 60%;
     margin-left: 70px;
+}
+
+.img-7 {
+    margin-left: 120px;
+    margin-top: 10px;
 }
 
 .milos {
