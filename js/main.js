@@ -454,7 +454,7 @@ function getData(map, url, iconUrl, highlight) {
                             var statueMuseum = layer.feature.properties["Current Museum"]
                             if (museum == statueMuseum){
                               var customIcon = L.icon({
-                                iconUrl: 'img/greek-statue-stroke.svg',
+                                iconUrl: 'img/highlight-statue-light.svg',
                                 iconSize: [40, 40], // size of the icon
                                 iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
                               });

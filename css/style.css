@@ -177,6 +177,7 @@
     font-size: 16px;
     text-align: center;
 }
+
 #onlyGreekZoomMap .leaflet-popup-content-wrapper, #onlyGreekZoomMap .leaflet-popup-tip {
     background-color: #f6f6f6 !important;
     border-radius: 6px !important;
@@ -381,6 +382,11 @@
     margin-top: 10px;
 }
 
+.moai-caption {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
 .plaster {
     width: 70%;
 }
@@ -412,7 +418,7 @@
 .slide-4 {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #224b4b;
+    color: #22444b;
     background-size: cover;
 
 }
@@ -502,10 +508,6 @@
     font-size: 50px;
 }
 
-.moai-caption {
-    font-size: 18px;
-    padding-top: 10px;
-}
 
 .sources {
     margin-top: 300px;
@@ -514,44 +516,6 @@
     color: rgb(91, 91, 91);  
 }
  
-.animated-element-1 {
-    position: absolute;
-    top: 70%;
-    left: 0;
-    width: 1000px;
-    height: 50px;
-  }
-  @keyframes move {
-    0% {
-        left: 0;
-      }
-      100% {
-        left: 100%;
-      }
-    }
-    .animated-element-1 {
-      animation: move 12s linear infinite;
-    }
-
-    .animated-element-2 {
-        position: absolute;
-        top: 5%;
-        left: 90;
-        width: 1000px;
-        height: 50px;
-      }
-      @keyframes move {
-        0% {
-            left: 0;
-          }
-          100% {
-            left: 100%;
-          }
-        }
-        .animated-element-2 {
-          animation: move 9s linear infinite;
-        }
-
 
 /*.foreground-item {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -563,6 +527,12 @@
 .background-transparent {
     background-color: white;
     opacity: 80%;
+}
+
+.cloud-img {
+    width: 150%;
+    margin-left: 65px;
+    
 }
 
 .img-1 {
@@ -611,9 +581,6 @@
     padding-bottom: 10px;
 }
 
-/*.row {
-    font-size: 40px;
-}*/
 
 
 /* creating map containers on screen*/
@@ -748,5 +715,48 @@
     width: 100vw; 
     display: inline-block; 
 }
+
+
+
+/* ANIMATED CLOUDS */
+
+.animated-element-1 {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 1000px;
+    height: 50px;
+  }
+  @keyframes move {
+    0% {
+        left: 0;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+    .animated-element-1 {
+      animation: move 12s linear infinite;
+    }
+
+    .animated-element-2 {
+        position: absolute;
+        top: 5%;
+        left: 90;
+        width: 1000px;
+        height: 50px;
+      }
+      @keyframes move {
+        0% {
+            left: 0;
+          }
+          100% {
+            left: 100%;
+          }
+        }
+        .animated-element-2 {
+          animation: move 9s linear infinite;
+        }
+
 
 
