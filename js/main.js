@@ -2,7 +2,7 @@
 var blankMap = L.map('blankMap', {
   center: [39, 30],
   zoom: 6,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -15,7 +15,7 @@ var blankMap = L.map('blankMap', {
 var blankMap2 = L.map('blankMap2', {
   center: [45, 15],
   zoom: 5,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -25,7 +25,7 @@ var blankMap2 = L.map('blankMap2', {
 var statueMap = L.map('statueMap', {
   center: [39, 21],
   zoom: 6,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -38,7 +38,7 @@ var statueMap = L.map('statueMap', {
 var romanMap = L.map('romanMap', {
   center: [39, 21],
   zoom: 6,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -52,13 +52,13 @@ var romanMap = L.map('romanMap', {
 var venusMap = L.map('venusMap', {
   center: [36.65, 24.05],
   zoom: 10,
-  maxZoom: 18,
-  minZoom: 4,
+  maxZoom: 20,
+  minZoom: 7,
   scrollWheelZoom: false,
   zoomControl: true,
   maxBounds: [
-      [50, 50],
-      [25, 0]
+      [45, 35],
+      [35, 15]
   ],
 
 });
@@ -66,7 +66,7 @@ var venusMap = L.map('venusMap', {
 var archaicMap = L.map('archaicMap', {
   center: [39, 30],
   zoom: 6,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -79,7 +79,7 @@ var archaicMap = L.map('archaicMap', {
 var classicalMap = L.map('classicalMap', {
   center: [39, 30],
   zoom: 6,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -89,12 +89,11 @@ var classicalMap = L.map('classicalMap', {
   ],
 });
 
-// CONSTRAIN ZOOM 
 var athensMap = L.map('athensMap', {
   center: [38, 23.8],
   zoom: 12,
   maxZoom: 20,
-  minZoom: 4,
+  minZoom: 6,
   scrollWheelZoom: false,
   zoomControl: true,
   maxBounds: [
@@ -106,7 +105,7 @@ var athensMap = L.map('athensMap', {
 var transitionMap = L.map('transitionMap', {
   center: [39, 30],
   zoom: 6,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -119,7 +118,7 @@ var transitionMap = L.map('transitionMap', {
 var hellenisticMap = L.map('hellenisticMap', {
   center: [39, 30],
   zoom: 6,
-  maxZoom: 12,
+  maxZoom: 20,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -132,7 +131,7 @@ var hellenisticMap = L.map('hellenisticMap', {
 var venusMuseumMap = L.map('venusMuseumMap', {
   center: [45, 15],
   zoom: 5,
-  maxZoom: 12,
+  maxZoom: 20,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -142,7 +141,7 @@ var venusMuseumMap = L.map('venusMuseumMap', {
 var venusMovementMap = L.map('venusMovementMap', {
   center: [45, 15],
   zoom: 5,
-  maxZoom: 12,
+  maxZoom: 20,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -152,7 +151,7 @@ var venusMovementMap = L.map('venusMovementMap', {
 var onlyGreekMap = L.map('onlyGreekMap', {
   center: [45, 15],
   zoom: 5,
-  maxZoom: 12,
+  maxZoom: 20,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -162,7 +161,7 @@ var onlyGreekMap = L.map('onlyGreekMap', {
 var onlyGreekZoomMap = L.map('onlyGreekZoomMap', {
   center: [39, 30],
   zoom: 6,
-  maxZoom: 12,
+  maxZoom: 20,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -175,7 +174,7 @@ var onlyGreekZoomMap = L.map('onlyGreekZoomMap', {
 var britishMuseumMap = L.map('britishMuseumMap', {
   center: [45, 15],
   zoom: 5,
-  maxZoom: 12,
+  maxZoom: 20,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -185,7 +184,7 @@ var britishMuseumMap = L.map('britishMuseumMap', {
 var marblesMap = L.map('marblesMap', {
   center: [45, 15],
   zoom: 5,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -195,7 +194,7 @@ var marblesMap = L.map('marblesMap', {
 var acropolisMap = L.map('acropolisMap', {
   center: [45, 15],
   zoom: 5,
-  maxZoom: 12,
+  maxZoom: 18,
   minZoom: 4,
   scrollWheelZoom: false,
   zoomControl: true,
@@ -271,7 +270,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9f
 }).addTo(romanMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
-  maxZoom: 18,
+  maxZoom: 20,
 }).addTo(venusMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clgpx6cap00e901nn9jbi9fyt/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
@@ -315,7 +314,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clhgyu8u502h601qmahv00n
 }).addTo(britishMuseumMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clhgyu8u502h601qmahv00ncm/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
-  maxZoom: 20,
+  maxZoom: 18,
 }).addTo(marblesMap);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/smichalski/clhgyu8u502h601qmahv00ncm/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic21pY2hhbHNraSIsImEiOiJjbDl6d2s0enYwMnI1M29uMDhzNXB0NTRlIn0.c1_vy157AkEEGNIfyQI9YQ', {
