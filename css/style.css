@@ -480,7 +480,7 @@
 }
 
 .slide-7 {
-    font-size: 24px;
+    font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
     background-size: cover;
@@ -546,10 +546,16 @@
     font-size: 50px;
 }
 
+.credits-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(134, 75, 98);
+}
+
 .sources {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(112, 112, 112);
+    color: rgb(110, 110, 110);
 }
 
 
