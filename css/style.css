@@ -514,6 +514,43 @@
     color: rgb(91, 91, 91);  
 }
  
+.animated-element-1 {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 1000px;
+    height: 50px;
+  }
+  @keyframes move {
+    0% {
+        left: 0;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+    .animated-element-1 {
+      animation: move 12s linear infinite;
+    }
+
+    .animated-element-2 {
+        position: absolute;
+        top: 5%;
+        left: 90;
+        width: 1000px;
+        height: 50px;
+      }
+      @keyframes move {
+        0% {
+            left: 0;
+          }
+          100% {
+            left: 100%;
+          }
+        }
+        .animated-element-2 {
+          animation: move 9s linear infinite;
+        }
 
 
 /*.foreground-item {
