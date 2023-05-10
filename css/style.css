@@ -364,6 +364,16 @@
     color: rgb(187, 135, 168);
 }
 
+a {
+    color: rgb(144, 64, 108);
+}
+
+a:hover {
+    color: rgb(248, 178, 217);
+
+  }
+  
+
 .legend-1 {
     padding-left: 60px;
 }
@@ -549,7 +559,8 @@
 .credits-header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-    color: rgb(141, 141, 141);
+    color: rgb(178, 101, 144);
+
 }
 
 .sources {
