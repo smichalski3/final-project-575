@@ -6,7 +6,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Archaeological Museum of Olympia",
+                "Museum": "Archaeological Museum of Olympia",
                 "image":"img/museum pics/olympia-museum.jpg"
 
             },
@@ -23,7 +23,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "National Archaeological Museum of Athens",
+                "Museum": "National Archaeological Museum of Athens",
                 "image":"img/museum pics/athens.jpg"
             },
             "geometry": {
@@ -39,7 +39,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Acropolis Museum",
+                "Museum": "Acropolis Museum",
                 "image":"img/museum pics/acropolis.jpg"
             },
             "geometry": {

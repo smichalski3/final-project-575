@@ -444,7 +444,7 @@ function getData(map, url, iconUrl, highlight) {
                 // bind the popup to the layer, and show it on click
                 layer.bindPopup(popupContent, { closeButton: false, offset: L.point(0, -10) });
                 layer.on('click', function(e) {
-                     var museum = layer.feature.properties["Museum name"];
+                     var museum = layer.feature.properties["Museum"];
                     this.openPopup();
                     if (highlight) {
                       map.eachLayer(function(layer){

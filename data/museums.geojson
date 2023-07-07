@@ -4,7 +4,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Musée du Louvre",
+                "Museum": "Musée du Louvre",
                 "image": "img/museum pics/louvre.jpg"
             },
             "geometry": {
@@ -19,7 +19,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "British Museum",
+                "Museum": "British Museum",
                 "image": "img/museum pics/british-museum.jpg"
 
             },
@@ -35,7 +35,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Archaeological Museum of Olympia",
+                "Museum": "Archaeological Museum of Olympia",
                 "image":"img/museum pics/olympia-museum.jpg"
 
             },
@@ -52,7 +52,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "National Archaeological Museum of Athens",
+                "Museum": "National Archaeological Museum of Athens",
                 "image":"img/museum pics/athens.jpg"
             },
             "geometry": {
@@ -67,7 +67,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Glyptothek",
+                "Museum": "Glyptothek",
                 "image": "img/museum pics/glypto.jpg"
             },
             "geometry": {
@@ -82,7 +82,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Delphi Archaeological Museum",
+                "Museum": "Delphi Archaeological Museum",
                 "image":"img/museum pics/delphi.jpg"
             },
             "geometry": {
@@ -97,7 +97,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "National Archaeological Museum of Reggio Calabria",
+                "Museum": "National Archaeological Museum of Reggio Calabria",
                 "image":"img/museum pics/reggio.jpg"
             },
             "geometry": {
@@ -113,7 +113,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Acropolis Museum",
+                "Museum": "Acropolis Museum",
                 "image":"img/museum pics/acropolis.jpg"
             },
             "geometry": {

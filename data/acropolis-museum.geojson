@@ -4,7 +4,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Acropolis Museum",
+                "Museum": "Acropolis Museum",
                 "image":"img/museum pics/acropolis.jpg"
             },
             "geometry": {

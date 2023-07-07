@@ -4,7 +4,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Museum name": "Musée du Louvre",
+                "Museum": "Musée du Louvre",
                 "image": "img/museum pics/louvre.jpg"
             },
             "geometry": {
